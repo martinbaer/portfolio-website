@@ -21,7 +21,7 @@
 		"src/**/*.js",
 		"src/**/*.svelte",
 		"src/**/*.ts",
-		"typings.d.ts"
+		"imports.d.ts"
 	],
 	"references": [
 		{
