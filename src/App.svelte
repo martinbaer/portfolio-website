@@ -13,7 +13,7 @@
             <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
         </a>
     </div>
-    <h1>Vite + Svelte TEST</h1>
+    <h1>Vite + Svelte TEST2</h1>
 
     <div class="card">
         <Counter />
