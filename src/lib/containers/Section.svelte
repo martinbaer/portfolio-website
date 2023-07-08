@@ -2,6 +2,25 @@
     import colors from "../../constants/colors";
     export let color: string = colors.background;
     export let isMain: boolean = false;
+
+    const pageNumber = (page: String): number => {
+        let pageNumber = 0;
+        switch (page) {
+            case "/":
+                pageNumber = 0;
+                break;
+            case "/projects":
+                pageNumber = 1;
+                break;
+            case "/contact":
+                pageNumber = 2;
+                break;
+            default:
+                pageNumber = 0;
+                break;
+        }
+        return pageNumber;
+    };
 </script>
 
 <div
