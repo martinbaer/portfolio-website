@@ -25,7 +25,7 @@
 
 <div
     class="section-container"
-    style="background-color:{color};flex:{isMain ? 1 : 0}"
+    style="background-color:{color};flex:{isMain ? 1 : 0};"
 >
     <section>
         <slot />

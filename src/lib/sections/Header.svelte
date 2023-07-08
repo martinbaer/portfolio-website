@@ -11,48 +11,51 @@
     };
 </script>
 
-<Section color={colors.accentBackground}>
-    <div class="header-container">
-        <h1 style="color:{colors.background}">Martin Baer</h1>
-        <!-- navigation -->
-        <nav style="color:{colors.background}">
-            <ul>
-                <li>
-                    <a
-                        style="text-decoration: {$url.pathname == '/'
-                            ? 'underline'
-                            : 'auto'};"
-                        href="/"
-                        on:click={handleLinkClick}
-                    >
-                        About</a
-                    >
-                </li>
-                <li>
-                    <a
-                        style="text-decoration: {$url.pathname == '/projects'
-                            ? 'underline'
-                            : 'auto'};"
-                        href="/projects"
-                        on:click={handleLinkClick}>Projects</a
-                    >
-                </li>
-                <li>
-                    <a
-                        style="text-decoration: {$url.pathname == '/contact'
-                            ? 'underline'
-                            : 'auto'};"
-                        on:click={handleLinkClick}
-                        href="/contact">Contact</a
-                    >
-                </li>
-            </ul>
-        </nav>
-    </div>
-</Section>
-<Section color={colors.dullAccentBackground}>
-    <div style="height:25px" />
-</Section>
+<div style="filter:drop-shadow(0px 0px 10px rgba(0,0,0,0.9))">
+    <Section color={colors.accentBackground}>
+        <div class="header-container">
+            <h1 style="color:{colors.background}">Martin Baer</h1>
+            <!-- navigation -->
+            <nav style="color:{colors.background}">
+                <ul>
+                    <li>
+                        <a
+                            style="text-decoration: {$url.pathname == '/'
+                                ? 'underline'
+                                : 'auto'};"
+                            href="/"
+                            on:click={handleLinkClick}
+                        >
+                            About</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            style="text-decoration: {$url.pathname ==
+                            '/projects'
+                                ? 'underline'
+                                : 'auto'};"
+                            href="/projects"
+                            on:click={handleLinkClick}>Projects</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            style="text-decoration: {$url.pathname == '/contact'
+                                ? 'underline'
+                                : 'auto'};"
+                            on:click={handleLinkClick}
+                            href="/contact">Contact</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </Section>
+    <Section color={colors.dullAccentBackground}>
+        <div style="height:25px" />
+    </Section>
+</div>
 
 <style lang="scss">
     .header-container {

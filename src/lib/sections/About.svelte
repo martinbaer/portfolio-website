@@ -1,34 +1,37 @@
 <script lang="ts">
+    import colors from "../../constants/colors";
     import Section from "../containers/Section.svelte";
 </script>
 
 <Section isMain>
-    <h1 class="right">Who am I?</h1>
+    <h1 class="right" style="color:{colors.accentBackground}">Who am I?</h1>
     <div class="subsection" style="flex-direction: row-reverse;">
         <div class="right content">
             <p>
-                I’m a motivated 4th year BE/ME (software) undergraduate at The
-                University of Queensland, with a diverse range of passions. I'm
-                dedicated to continuous learning, receptive to constructive
-                feedback, and consistently infuse a sense of enjoyment into all
-                my projects.
+                I’m a motivated 4th year student at The University of
+                Queensland. I study a Bachelor of Engineering (Hons.) and Master
+                of Engineering in Software and have a diverse range of passions
+                in the field. I'm dedicated to continuous learning, receptive to
+                constructive feedback, and I love making things.
             </p>
             <p>
                 I created this portfolio website to connect with organisations
-                that will fuel my growth mindset and provide the most conducive
-                environment for my personal and professional development.
+                that can offer a constructive environment and will support my
+                growth.
             </p>
+            <p>Check out my projects -></p>
+            <p>Contact me -></p>
         </div>
         <div class="circle-container">
             <img src="/placeholder.jpg" alt="placeholder" />
         </div>
     </div>
-    <h1>What am I interested in?</h1>
+    <h1 style="color:{colors.accentBackground}">What am I interested in?</h1>
     <div class="subsection">
         <div class="content">
             <p>
-                So far at uni I have a solid introduction to many fields within
-                software engineering including:
+                So far at uni I have a solid introduction to several fields
+                within software engineering. My areas of interest include:
             </p>
             <ul>
                 <li>Software processes and management</li>
@@ -41,10 +44,12 @@
                 <li>High-performance computing</li>
             </ul>
             <p>
-                Unrelated to my career I also have an interest in exploring
-                nature. Last year I did the 4-day Sunshine Coast Hinterland
-                Great Walk and this year I plan on doing the 4-day Conondale
-                Range Great Walk.
+                I try to bring the same fun-loving nature into both my
+                professional pursuits and personal hobbies. Photo: Despite not
+                being the most seasoned hiker, I am always up for a challenge.
+                Last year I did the 4-day Sunshine Coast Hinterland Great Walk
+                and this year I plan on doing the 4-day Conondale Range Great
+                Walk.
             </p>
         </div>
         <div class="circle-container">
@@ -52,7 +57,9 @@
         </div>
     </div>
     <div class="right">
-        <h1>What skills do I have so far?</h1>
+        <h1 style="color:{colors.accentBackground}">
+            What skills do I have so far?
+        </h1>
         <p>
             I try to have a language-agnostic approach to problem-solving – I'm
             comfortable learning new technologies, languages, and frameworks.
@@ -78,7 +85,7 @@
     }
     .subsection {
         .content {
-            width: calc(100% - 180px);
+            width: calc(100% - 210px);
             min-width: 400px;
         }
 
@@ -99,8 +106,8 @@
         }
     }
     .circle-container {
-        width: 150px; /* adjust to your needs */
-        height: 150px; /* adjust to your needs */
+        width: 170px; /* adjust to your needs */
+        height: 170px; /* adjust to your needs */
         border-radius: 50%;
         overflow: hidden;
     }
