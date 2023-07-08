@@ -44,9 +44,7 @@
                 Unrelated to my career I also have an interest in exploring
                 nature. Last year I did the 4-day Sunshine Coast Hinterland
                 Great Walk and this year I plan on doing the 4-day Conondale
-                Range Great Walk that will fuel my growth mindset and provide
-                the most conducive environment for my personal and professional
-                development.
+                Range Great Walk.
             </p>
         </div>
         <div class="circle-container">
