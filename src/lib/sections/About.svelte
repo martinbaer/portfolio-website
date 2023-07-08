@@ -4,15 +4,12 @@
 
 <Section isMain>
     <h1 class="right">Who am I?</h1>
-    <div class="subsection">
-        <div class="circle-container">
-            <img src="/placeholder.jpg" alt="placeholder" />
-        </div>
+    <div class="subsection" style="flex-direction: row-reverse;">
         <div class="right content">
             <p>
-                I’m a motivated 4th year software engineering undergraduate at
-                The University of Queensland, with a diverse range of passions.
-                I'm dedicated to continuous learning, receptive to constructive
+                I’m a motivated 4th year BE/ME (software) undergraduate at The
+                University of Queensland, with a diverse range of passions. I'm
+                dedicated to continuous learning, receptive to constructive
                 feedback, and consistently infuse a sense of enjoyment into all
                 my projects.
             </p>
@@ -21,6 +18,9 @@
                 that will fuel my growth mindset and provide the most conducive
                 environment for my personal and professional development.
             </p>
+        </div>
+        <div class="circle-container">
+            <img src="/placeholder.jpg" alt="placeholder" />
         </div>
     </div>
     <h1>What am I interested in?</h1>
@@ -79,6 +79,7 @@
     .subsection {
         .content {
             width: calc(100% - 180px);
+            min-width: 400px;
         }
 
         display: flex;
@@ -86,6 +87,16 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 10px;
+        // wrap
+        flex-wrap: wrap;
+        // for screens smaller than 600px
+        @media (max-width: 600px) {
+            // reverse
+            .content {
+                width: 100%;
+                min-width: 0;
+            }
+        }
     }
     .circle-container {
         width: 150px; /* adjust to your needs */
