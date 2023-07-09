@@ -1,16 +1,15 @@
 <script lang="ts">
     import colors from "../../constants/colors";
+    import Link from "../containers/Link.svelte";
     import Section from "../containers/Section.svelte";
-
-    const handleLinkClick = (e) => {
-        e.preventDefault();
-        const href = e.currentTarget.getAttribute("href");
-        history.pushState(null, "", href);
-    };
+    import { onMount } from "svelte";
+    onMount(() => {
+        document.title = "Martin Baer";
+    });
 </script>
 
 <Section isMain>
-    <h1 class="right">Who am I?</h1>
+    <h2 class="right">Who am I?</h2>
     <div class="subsection" style="flex-direction: row-reverse;">
         <div class="right content">
             <p>
@@ -26,19 +25,17 @@
                 growth.
             </p>
             <p>
-                <a href="/projects" on:click={handleLinkClick}
-                    >Check out my projects →</a
-                >
+                <Link to="/projects">Check out my projects</Link>
             </p>
             <p>
-                <a href="/contact" on:click={handleLinkClick}>Contact me →</a>
+                <Link to="/contact">Contact me</Link>
             </p>
         </div>
         <div class="circle-container">
             <img src="/placeholder.jpg" alt="placeholder" />
         </div>
     </div>
-    <h1>What am I interested in?</h1>
+    <h2>What am I interested in?</h2>
     <div class="subsection">
         <div class="content">
             <p>
@@ -69,7 +66,7 @@
         </div>
     </div>
     <div class="right shortened">
-        <h1>What skills do I have so far?</h1>
+        <h2>What skills do I have so far?</h2>
         <p>
             I try to have a language-agnostic approach to problem-solving – I'm
             comfortable learning new technologies, languages, and frameworks.
@@ -78,10 +75,10 @@
             assignments.
         </p>
     </div>
-    <h2>Languages</h2>
+    <h3>Languages</h3>
     <div class="skill-type">
         <div class="skill-group">
-            <h3>General purpose</h3>
+            <h4>General purpose</h4>
             <ul>
                 <li>Java</li>
                 <li>Python</li>
@@ -91,7 +88,7 @@
             </ul>
         </div>
         <div class="skill-group">
-            <h3>Lower level</h3>
+            <h4>Lower level</h4>
             <ul>
                 <li>C</li>
                 <li>C++</li>
@@ -100,7 +97,7 @@
         </div>
 
         <div class="skill-group">
-            <h3>Markup and styling</h3>
+            <h4>Markup and styling</h4>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -110,7 +107,7 @@
         </div>
 
         <div class="skill-group">
-            <h3>Other</h3>
+            <h4>Other</h4>
             <ul>
                 <li>SQL</li>
                 <li>Solidity</li>
@@ -120,10 +117,10 @@
             </ul>
         </div>
     </div>
-    <h2>Frameworks and notable libraries</h2>
+    <h3>Frameworks and notable libraries</h3>
     <div class="skill-type">
         <div class="skill-group">
-            <h3>Parralelisation</h3>
+            <h4>Parralelisation</h4>
             <ul>
                 <li>Intel Intrinsics AVX</li>
                 <li>MPI</li>
@@ -132,7 +129,7 @@
             </ul>
         </div>
         <div class="skill-group">
-            <h3>Data science</h3>
+            <h4>Data science</h4>
             <ul>
                 <li>Numpy</li>
                 <li>Pandas</li>
@@ -142,14 +139,14 @@
             </ul>
         </div>
         <div class="skill-group">
-            <h3>Web front-end</h3>
+            <h4>Web front-end</h4>
             <ul>
                 <li>React</li>
                 <li>Svelte</li>
             </ul>
         </div>
         <div class="skill-group">
-            <h3>Web back-end</h3>
+            <h4>Web back-end</h4>
             <ul>
                 <li>Node.js</li>
                 <li>Express.js</li>
@@ -157,24 +154,24 @@
             </ul>
         </div>
         <div class="skill-group">
-            <h3>Web full-stack</h3>
+            <h4>Web full-stack</h4>
             <ul>
                 <li>CodeIgniter</li>
                 <li>Sveltekit</li>
             </ul>
         </div>
     </div>
-    <h2>Tools</h2>
+    <h3>Tools</h3>
     <div class="skill-type">
         <div class="skill-group">
-            <h3>Version control</h3>
+            <h4>Version control</h4>
             <ul>
                 <li>Git</li>
                 <li>SVN</li>
             </ul>
         </div>
         <div class="skill-group">
-            <h3>Design</h3>
+            <h4>Design</h4>
             <ul>
                 <li>Figma</li>
                 <li>Canva</li>
@@ -183,7 +180,7 @@
         </div>
 
         <div class="skill-group">
-            <h3>Deployment</h3>
+            <h4>Deployment</h4>
             <ul>
                 <li>Apache</li>
                 <li>Docker</li>
@@ -193,7 +190,7 @@
         </div>
 
         <div class="skill-group">
-            <h3>Compiling</h3>
+            <h4>Compiling</h4>
             <ul>
                 <li>Make</li>
                 <li>Gradle</li>
@@ -202,7 +199,7 @@
         </div>
 
         <div class="skill-group">
-            <h3>Packaging</h3>
+            <h4>Packaging</h4>
             <ul>
                 <li>Wasm-Pack</li>
                 <li>Webpack</li>
@@ -212,7 +209,7 @@
         </div>
 
         <div class="skill-group">
-            <h3>Databases</h3>
+            <h4>Databases</h4>
             <ul>
                 <li>MySQL</li>
                 <li>MongoDB</li>
@@ -221,7 +218,7 @@
         </div>
 
         <div class="skill-group">
-            <h3>Operating systems</h3>
+            <h4>Operating systems</h4>
             <ul>
                 <li>Linux</li>
                 <li>MacOS</li>
@@ -230,7 +227,7 @@
         </div>
 
         <div class="skill-group">
-            <h3>Blockchain</h3>
+            <h4>Blockchain</h4>
             <ul>
                 <li>Remix - Ethereum IDE</li>
                 <li>MetaMask</li>
@@ -239,7 +236,7 @@
         </div>
 
         <div class="skill-group">
-            <h3>Other</h3>
+            <h4>Other</h4>
             <ul>
                 <li>RStudio</li>
                 <li>Wireshark</li>
@@ -253,10 +250,10 @@
         learn more.
     </p>
 
-    <h2>Coursework</h2>
+    <h3>Coursework</h3>
     <div class="skill-type-large">
         <div class="skill-group">
-            <h3>Engineering</h3>
+            <h4>Engineering practices</h4>
             <ul>
                 <li>Risk analysis</li>
                 <li>Financial analysis</li>
@@ -270,7 +267,7 @@
             </ul>
         </div>
         <div class="skill-group">
-            <h3>Software processes</h3>
+            <h4>Software processes</h4>
             <ul>
                 <li>Development processes</li>
                 <li>Use case modelling</li>
@@ -284,7 +281,7 @@
             </ul>
         </div>
         <div class="skill-group">
-            <h3>Data Science and Machine Learning</h3>
+            <h4>Data science and machine learning</h4>
             <ul>
                 <li>Evaluation techniques</li>
                 <li>Performance improvement techniques</li>
@@ -301,7 +298,7 @@
             </ul>
         </div>
         <div class="skill-group">
-            <h3>Data structures and algorithms</h3>
+            <h4>Data structures and algorithms</h4>
             <ul>
                 <li>Data structures & types</li>
                 <li>
@@ -316,7 +313,7 @@
             </ul>
         </div>
         <div class="skill-group">
-            <h3>Design</h3>
+            <h4>Design</h4>
             <ul>
                 <li>Human-computer interaction</li>
                 <li>UX design</li>
@@ -328,7 +325,7 @@
             </ul>
         </div>
         <div class="skill-group">
-            <h3>Web Information Systems</h3>
+            <h4>Web information systems</h4>
             <ul>
                 <li>Architectures</li>
                 <li>AJAX</li>
@@ -343,7 +340,7 @@
             </ul>
         </div>
         <div class="skill-group">
-            <h3>Computer Networks</h3>
+            <h4>Computer networks</h4>
             <ul>
                 <li>Network architectures</li>
                 <li>Wireshark analysis</li>
@@ -355,7 +352,7 @@
             </ul>
         </div>
         <div class="skill-group">
-            <h3>Cyber Security</h3>
+            <h4>Cyber Security</h4>
             <ul>
                 <li>Symmetric and asymetric cryptography</li>
                 <li>Modern cipher suites</li>
@@ -365,11 +362,11 @@
                 <li>Vulnerability and threat modelling</li>
                 <li>Security risk management</li>
                 <li>Practice simulating attacks</li>
-                <li>Explaining attacks and CIA triad</li>
+                <li>Explaining attacks with respect to CIA triad</li>
             </ul>
         </div>
         <div class="skill-group">
-            <h3>High-performance Computing</h3>
+            <h4>High-performance computing</h4>
             <ul>
                 <li>Parallel computing theory</li>
                 <li>HPC use in solving scientific problems</li>
@@ -383,7 +380,7 @@
             </ul>
         </div>
         <div class="skill-group">
-            <h3>Blockchain and Decentralised Systems</h3>
+            <h4>Blockchain and decentralised systems</h4>
             <ul>
                 <li>Bitcoin</li>
                 <li>Ethereum</li>
@@ -396,14 +393,14 @@
             </ul>
         </div>
     </div>
-	<p class="right shortened">
-    	<a href="/projects" on:click={handleLinkClick}>
-		Check out my projects where I use these skills →</a>
+    <p class="right shortened">
+        <Link to="/projects"
+            >Check out my projects where I use these skills</Link
+        >
     </p>
-	<p class="right shortened">
-		<a href="/contact" on:click={handleLinkClick}>Contact me →</a>
-	</p>
-    <div style="height:100px" />
+    <p class="right shortened">
+        <Link to="/contact">Contact me</Link>
+    </p>
 </Section>
 
 <style lang="scss">
@@ -411,6 +408,9 @@
 
     .shortened {
         width: calc(100% - 210px);
+        @media (max-width: 600px) {
+            width: 100%;
+        }
     }
 
     .skill-type {
@@ -453,19 +453,14 @@
         }
     }
 
-    a {
-        color: colors.$accent-background;
-        text-decoration: none;
-        text-decoration: underline;
-    }
     .right {
         text-align: right;
         margin-left: auto;
     }
-    h1 {
-        margin-bottom: 0;
-        margin-top: 50px;
-    }
+    // h2 {
+    //     margin-bottom: 0;
+    //     margin-top: 50px;
+    // }
     .subsection {
         .content {
             width: calc(100% - 210px);

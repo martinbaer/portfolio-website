@@ -73,6 +73,7 @@
         font-size: 40px;
         // reduce top and bottom margin to 20px and 10px
         margin: 25px 0;
+        margin-right: 15px;
     }
     // centre the nav
     nav {

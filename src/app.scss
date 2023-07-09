@@ -31,18 +31,31 @@ li {
 }
 
 h1 {
-	color: colors.$accent-background;
+	font-size: 40px;
+        // reduce top and bottom margin to 20px and 10px
+        margin-top: 50px;
+		margin-bottom: 10px;
+		color: colors.$accent-background;
+		text-align: center;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 h2 {
+	color: colors.$dull-accent-background;
+	margin-top: 50px;
+	margin-bottom: 0;
+}
+
+h3 {
 	font-size: 20px;	
-	color: colors.$accent-background;
+	color: colors.$dull-accent-background;
 	margin: 50px 0 10px 0;
 	// underline
 	// text-decoration: underline;
 }
 
-h3 {
+h4 {
 	font-size: 16px;
 	font-family: "Custom Gill Sans Light";
 	// no margin
