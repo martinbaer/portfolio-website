@@ -18,6 +18,9 @@
     import url from "./stores/url";
 </script>
 
+<!-- TODO add all browser extra lines for dropshadows -->
+<!-- TODO make dot point points dark blue -->
+
 <main>
     <Header />
     {#if $url.pathname == "/"}
@@ -30,5 +33,6 @@
     <Footer />
 </main>
 
-<style>
+<style lang="scss">
+    @use "./constants/colors.scss" as colors;
 </style>

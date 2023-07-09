@@ -1,0 +1,54 @@
+@use "./constants/colors.scss" as colors;
+
+
+/* apple font */
+body {
+	/* georgia */
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	font-family: "Custom Gill Sans";
+}
+
+main {
+	/* flex box */
+	display: flex;
+	flex-direction: column;
+	/* min height 100% */
+	min-height: 100vh;
+}
+
+
+a {
+	font-family: "Custom Gill Sans";
+}
+
+p {
+	font-family: "Custom Gill Sans Light";
+}
+li {
+	font-family: "Custom Gill Sans Light";
+}
+
+h1 {
+	color: colors.$accent-background;
+}
+
+h2 {
+	font-size: 20px;	
+	color: colors.$accent-background;
+	margin: 50px 0 10px 0;
+	// underline
+	// text-decoration: underline;
+}
+
+h3 {
+	font-size: 16px;
+	font-family: "Custom Gill Sans Light";
+	// no margin
+	padding: 0;
+	margin: 0;
+	// underline
+	text-decoration: underline;
+}
+

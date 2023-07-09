@@ -1,5 +1,5 @@
 import "./fonts.css";
-import './app.css';
+import './app.scss';
 
 import App from './App.svelte';
 

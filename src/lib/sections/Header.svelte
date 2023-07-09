@@ -2,11 +2,11 @@
     import colors from "../../constants/colors";
     import Section from "../containers/Section.svelte";
     import url from "../../stores/url";
-    console.log($url);
 
     const handleLinkClick = (e) => {
         e.preventDefault();
         const href = e.currentTarget.getAttribute("href");
+        if (href == $url.pathname) return;
         history.pushState(null, "", href);
     };
 </script>
@@ -14,7 +14,9 @@
 <div style="filter:drop-shadow(0px 0px 10px rgba(0,0,0,0.9))">
     <Section color={colors.accentBackground}>
         <div class="header-container">
-            <h1 style="color:{colors.background}">Martin Baer</h1>
+            <a on:click={handleLinkClick} href="/"
+                ><h1 style="color:{colors.background}">Martin Baer</h1></a
+            >
             <!-- navigation -->
             <nav style="color:{colors.background}">
                 <ul>
@@ -94,12 +96,4 @@
         text-decoration: none;
         color: inherit;
     }
-    // a:hover {
-    //     // underline
-    //     text-decoration: underline;
-    // }
-    // add some space between the links
-    // li {
-    //     margin: 0 10px;
-    // }
 </style>
