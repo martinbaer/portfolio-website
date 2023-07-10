@@ -31,10 +31,12 @@
                 </p>
                 <Link to="/contact">Contact me</Link>
                 <Link to="/projects">Check out my projects</Link>
-                <Link to="https://github.com/martinbaer">Open my GitHub</Link>
+                <Link to="https://github.com/martinbaer">
+                    Check out my GitHub
+                </Link>
                 <Link to="https://www.linkedin.com/in/martin-baer-a8b133282/">
-                    Connect on LinkedIn</Link
-                >
+                    Connect on LinkedIn
+                </Link>
                 <div style="height: 20px;" />
             </div>
             <div class="circle-container">
@@ -459,6 +461,9 @@
             margin: 0;
             padding: 0;
         }
+        ul li::before {
+            content: "";
+        }
     }
 
     .right {
@@ -467,7 +472,7 @@
     }
     .subsection {
         .content {
-            width: calc(100% - 210px);
+            width: calc(100% - 230px);
             min-width: 400px;
         }
 
@@ -485,8 +490,8 @@
         }
     }
     .circle-container {
-        width: 170px;
-        height: 170px;
+        width: 200px;
+        height: 200px;
         border-radius: 50%;
         overflow: hidden;
     }

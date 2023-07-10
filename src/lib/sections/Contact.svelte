@@ -35,18 +35,18 @@
             <div style="height: 10px" />
             <Link>
                 <img src={phoneSvg} alt="Phone" />
-                Enquire or see resume</Link
-            >
+                Enquire or see resume
+            </Link>
             <div style="height: 10px" />
             <Link to="https://github.com/martinbaer"
-                ><img src={githubSvg} alt="GitHub" />GitHub - martinbaer</Link
-            >
+                ><img src={githubSvg} alt="GitHub" />
+                martinbaer - GitHub
+            </Link>
             <div style="height: 10px" />
             <Link to="https://www.linkedin.com/in/martin-baer-a8b133282/">
                 <img src={linkedinSvg} alt="LinkedIn" />
-
-                LinkedIn - Martin Baer</Link
-            >
+                Martin Baer - LinkedIn
+            </Link>
         </div>
     </Section>
 </article>

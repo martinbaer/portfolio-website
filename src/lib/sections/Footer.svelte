@@ -25,7 +25,7 @@
 </script>
 
 <Section><div style="height:100px" /></Section>
-<div class="dropshadow">
+<div class="drop-shadow">
     <Section color={colors.dullAccentBackground}>
         <div style="height:25px" />
     </Section>

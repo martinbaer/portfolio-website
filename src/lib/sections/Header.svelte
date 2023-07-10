@@ -13,7 +13,7 @@
     };
 </script>
 
-<header>
+<header class="drop-shadow">
     <Section color={colors.accentBackground}>
         <div class="header-container">
             <a on:click={handleLinkClick} href="/"
@@ -55,7 +55,7 @@
 </header>
 
 <style lang="scss">
-    $shadow: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.9));
+    $shadow: drop-shadow(0px 0px 10px rgba(50, 50, 50, 0.9));
     .underline {
         text-decoration: underline;
     }
