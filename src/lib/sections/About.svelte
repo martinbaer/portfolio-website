@@ -10,6 +10,7 @@
 
 <article>
     <Section>
+        <h1>About me</h1>
         <h2 class="right">Who am I?</h2>
         <div class="subsection" style="flex-direction: row-reverse;">
             <div class="right content">

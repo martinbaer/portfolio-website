@@ -24,9 +24,7 @@
                 <ul>
                     <li>
                         <a
-                            style="text-decoration: {$url.pathname == '/'
-                                ? 'underline'
-                                : 'auto'};"
+                            class:underline={$url.pathname == "/"}
                             href="/"
                             on:click={handleLinkClick}
                         >
@@ -35,19 +33,14 @@
                     </li>
                     <li>
                         <a
-                            style="text-decoration: {$url.pathname ==
-                            '/projects'
-                                ? 'underline'
-                                : 'auto'};"
+                            class:underline={$url.pathname == "/projects"}
                             href="/projects"
                             on:click={handleLinkClick}>Projects</a
                         >
                     </li>
                     <li>
                         <a
-                            style="text-decoration: {$url.pathname == '/contact'
-                                ? 'underline'
-                                : 'auto'};"
+                            class:underline={$url.pathname == "/contact"}
                             on:click={handleLinkClick}
                             href="/contact">Contact</a
                         >
@@ -63,6 +56,9 @@
 
 <style lang="scss">
     $shadow: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.9));
+    .underline {
+        text-decoration: underline;
+    }
     :global(.drop-shadow) {
         filter: $shadow;
         -webkit-filter: $shadow;

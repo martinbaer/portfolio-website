@@ -2,6 +2,7 @@
     import url from "../../stores/url";
 
     export let to: string = "";
+    export let noArrow: boolean = false;
     // check if to starts with http
     let external: boolean = to.startsWith("http") || to.startsWith("mailto");
 
@@ -17,7 +18,12 @@
 
 <p class="less-gap">
     {#if to}
-        <a href={to} on:click={handleLinkClick}><slot /> →</a>
+        <a href={to} on:click={handleLinkClick}
+            ><slot />
+            {#if !noArrow}
+                →
+            {/if}</a
+        >
     {:else}
         <span><slot /></span>
     {/if}

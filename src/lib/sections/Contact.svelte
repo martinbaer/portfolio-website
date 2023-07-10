@@ -13,7 +13,6 @@
 </script>
 
 <article>
-    <title>Martin Baer | Contact</title>
     <Section isMain>
         <h1>Contact</h1>
         <div class="center">

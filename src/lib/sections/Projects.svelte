@@ -8,15 +8,13 @@
 </script>
 
 <article>
-    <!-- REMOVE LATER -->
-    <Section
-        ><div style="height:50px" />
-        This section is under construction. Please check back later.</Section
-    >
-    <!--  -->
-
     <Section>
-        <h1 class="center">Projects</h1>
+        <h1>Projects</h1>
+        <!-- REMOVE LATER -->
+        <div class="center">
+            This section is under construction. Please check back later.
+        </div>
+        <!--  -->
         <ProjectCard
             title="Real-Time Barnes-Hut Gravity Simulation"
             tags={[
@@ -37,13 +35,4 @@
 </article>
 
 <style lang="scss">
-    .center {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .right {
-        text-align: right;
-        margin-left: auto;
-    }
 </style>
