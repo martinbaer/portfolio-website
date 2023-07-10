@@ -35,7 +35,7 @@
                 <a href="/" on:click={handleLinkClick}> About</a>
                 <a href="/projects" on:click={handleLinkClick}>Projects</a>
                 <a href="/contact" on:click={handleLinkClick}>Contact</a>
-                <span>© 2023 Martin Baer</span>
+                <span id="copyright">© 2023 Martin Baer</span>
             </span>
 
             <span class="right footer-row">
@@ -67,6 +67,11 @@
 <style lang="scss">
     @use "src/constants/colors.scss" as colors;
 
+    #copyright {
+        margin-bottom: 3px;
+        margin-top: 5px;
+    }
+
     a {
         text-decoration: none;
         color: colors.$background;
@@ -76,11 +81,8 @@
         display: grid;
         // one column, equal spaced rows
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, 20px) 40px;
-        grid-column-gap: 20px;
+        grid-template-rows: 20px 20px 20px 40px;
         grid-row-gap: 10px;
-        // align-items: right;
-        // justify-items: right;
     }
     .right {
         margin-left: auto;

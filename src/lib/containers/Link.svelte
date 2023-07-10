@@ -6,14 +6,20 @@
     export let noArrow: boolean = false;
     export let color: string = colors.dullAccentBackground;
     // check if to starts with http
-    let external: boolean = to.startsWith("http") || to.startsWith("mailto");
+    let external: boolean = to.startsWith("http");
+    let email: boolean = to.startsWith("mailto");
 
     const handleLinkClick = (e) => {
+        if (email) {
+            return;
+        }
         e.preventDefault();
         if (external) {
             // open in new tab
             window.open(to, "_blank");
+            return;
         }
+
         if (to == $url.pathname) return;
         // scroll to top
         window.scrollTo(0, 0);
@@ -30,7 +36,7 @@
             {/if}</a
         >
     {:else}
-        <span style="color:{color}"><slot /></span>
+        <span style="color:black"><slot /></span>
     {/if}
 </p>
 
