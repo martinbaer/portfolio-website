@@ -108,7 +108,7 @@
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
-                    <li>Sass</li>
+                    <li>SCSS/Sass</li>
                     <li>LaTeX</li>
                 </ul>
             </div>

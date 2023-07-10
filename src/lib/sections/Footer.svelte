@@ -54,7 +54,7 @@
                 </Link>
                 <span>contact@martinbaer.au</span>
                 <Link
-                    to="https://github.com/martinbaer"
+                    to="https://github.com/martinbaer/portfolio-website"
                     color={colors.background}
                 >
                     <span class="white">View source code for this website</span>
