@@ -25,7 +25,7 @@
                 Enquire or see resume</Link
             >
             <Link to="https://github.com/martinbaer"
-                ><img src={githubSvg} alt="GitHub" />GitHub</Link
+                ><img src={githubSvg} alt="GitHub" />GitHub - Martin Baer</Link
             >
             <Link to="https://www.linkedin.com/in/martin-baer-a8b133282/">
                 <img src={linkedinSvg} alt="LinkedIn" />
