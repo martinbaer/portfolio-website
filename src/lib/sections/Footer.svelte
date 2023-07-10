@@ -11,6 +11,12 @@
     const handleLinkClick = (e) => {
         e.preventDefault();
         const href = e.currentTarget.getAttribute("href");
+        let external: boolean = href.startsWith("http");
+        if (external) {
+            // open in new tab
+            window.open(href, "_blank");
+            return;
+        }
         if (href == $url.pathname) return;
         // scroll to top
         window.scrollTo(0, 0);
@@ -34,12 +40,8 @@
 
             <span class="right footer-row">
                 <Link to="https://github.com/martinbaer" noArrow
-                    ><img
-                        class="changeToWhite"
-                        src={githubSvg}
-                        alt="GitHub"
-                    /></Link
-                >
+                    ><img class="changeToWhite" src={githubSvg} alt="GitHub" />
+                </Link>
                 <Link
                     to="https://www.linkedin.com/in/martin-baer-a8b133282/"
                     noArrow
@@ -48,10 +50,15 @@
                         class="changeToWhite"
                         src={linkedinSvg}
                         alt="LinkedIn"
-                    /></Link
-                >
+                    />
+                </Link>
                 <span>contact@martinbaer.au</span>
-                <!-- <span>Information accurate as of 10 Jul 2023</span> -->
+                <Link
+                    to="https://github.com/martinbaer"
+                    color={colors.background}
+                >
+                    <span class="white">View source code for this website</span>
+                </Link>
             </span>
         </footer>
     </Section>

@@ -29,8 +29,13 @@
                     organisations that can offer a constructive environment and
                     will support my growth. Email me at contact@martinbaer.au.
                 </p>
-                <Link to="/projects">Check out my projects</Link>
                 <Link to="/contact">Contact me</Link>
+                <Link to="/projects">Check out my projects</Link>
+                <Link to="https://github.com/martinbaer">Open my GitHub</Link>
+                <Link to="https://www.linkedin.com/in/martin-baer-a8b133282/">
+                    Connect on LinkedIn</Link
+                >
+                <div style="height: 20px;" />
             </div>
             <div class="circle-container">
                 <img src="/placeholder.jpg" alt="placeholder" />
@@ -491,5 +496,12 @@
         height: 100%;
         object-fit: cover; /* scales and crops the image to fill the container */
         object-position: center; /* adjust the position of the image within the container */
+    }
+
+    .circle-container {
+        @media (max-width: 600px) {
+            margin: 0 auto;
+            // margin-top: 20px;
+        }
     }
 </style>

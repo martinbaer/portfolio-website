@@ -1,14 +1,19 @@
 <script lang="ts">
     import url from "../../stores/url";
+    import colors from "../../constants/colors";
 
     export let to: string = "";
     export let noArrow: boolean = false;
+    export let color: string = colors.dullAccentBackground;
     // check if to starts with http
     let external: boolean = to.startsWith("http") || to.startsWith("mailto");
 
     const handleLinkClick = (e) => {
-        if (external) return;
         e.preventDefault();
+        if (external) {
+            // open in new tab
+            window.open(to, "_blank");
+        }
         if (to == $url.pathname) return;
         // scroll to top
         window.scrollTo(0, 0);
@@ -18,14 +23,14 @@
 
 <p class="less-gap">
     {#if to}
-        <a href={to} on:click={handleLinkClick}
+        <a href={to} on:click={handleLinkClick} style="color:{color}"
             ><slot />
             {#if !noArrow}
                 →
             {/if}</a
         >
     {:else}
-        <span><slot /></span>
+        <span style="color:{color}"><slot /></span>
     {/if}
 </p>
 
@@ -36,12 +41,12 @@
         margin-top: 5px;
     }
     a {
-        color: colors.$dull-accent-background;
+        // color: colors.$dull-accent-background;
         text-decoration: none;
         text-decoration: underline;
     }
     span {
-        color: colors.$dull-accent-background;
+        // color: colors.$dull-accent-background;
         font-family: "Custom Gill Sans";
     }
 </style>
