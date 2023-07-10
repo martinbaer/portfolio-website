@@ -45,17 +45,17 @@
         <div class="subsection">
             <div class="content">
                 <p>
-                    So far at uni I have a solid introduction to several fields
-                    within software engineering. My areas of interest include:
+                    I have a solid introduction to several fields within
+                    software engineering. My areas of interest include:
                 </p>
                 <ul>
                     <li>Software engineering processes and management</li>
                     <li>Software architecture</li>
+                    <li>Machine learning</li>
+                    <li>Cyber security and cryptographic systems</li>
                     <li>Web information systems</li>
                     <li>Design and human computer interaction</li>
                     <li>Blockchain and decentralised systems</li>
-                    <li>Cyber security and cryptography</li>
-                    <li>Machine learning</li>
                     <li>Computer networks</li>
                     <li>High-performance computing</li>
                 </ul>
