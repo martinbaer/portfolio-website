@@ -51,7 +51,7 @@
                     /></Link
                 >
                 <span>contact@martinbaer.au</span>
-                <span>Information accurate as of 10 Jul 2023</span>
+                <!-- <span>Information accurate as of 10 Jul 2023</span> -->
             </span>
         </footer>
     </Section>
