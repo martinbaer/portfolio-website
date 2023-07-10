@@ -7,6 +7,8 @@
         e.preventDefault();
         const href = e.currentTarget.getAttribute("href");
         if (href == $url.pathname) return;
+        // scroll to top
+        window.scrollTo(0, 0);
         history.pushState(null, "", href);
     };
 </script>

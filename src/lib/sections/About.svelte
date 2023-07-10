@@ -24,12 +24,8 @@
                 that can offer a constructive environment and will support my
                 growth.
             </p>
-            <p>
-                <Link to="/projects">Check out my projects</Link>
-            </p>
-            <p>
-                <Link to="/contact">Contact me</Link>
-            </p>
+            <Link to="/projects">Check out my projects</Link>
+            <Link to="/contact">Contact me</Link>
         </div>
         <div class="circle-container">
             <img src="/placeholder.jpg" alt="placeholder" />
@@ -393,14 +389,14 @@
             </ul>
         </div>
     </div>
-    <p class="right shortened">
+    <div class="right">
         <Link to="/projects"
             >Check out my projects where I use these skills</Link
         >
-    </p>
-    <p class="right shortened">
+    </div>
+    <div class="right">
         <Link to="/contact">Contact me</Link>
-    </p>
+    </div>
 </Section>
 
 <style lang="scss">

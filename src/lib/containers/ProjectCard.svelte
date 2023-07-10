@@ -33,23 +33,15 @@
         <p>{description}</p>
 
         {#if liveDemoLink}
-            <p class="less-gap">
-                <Link to={liveDemoLink}>Open live demo</Link>
-            </p>
+            <Link to={liveDemoLink}>Open live demo</Link>
         {/if}
 
         {#if githubLink}
-            <p class="less-gap">
-                <Link to={githubLink}>GitHub repository</Link>
-            </p>
+            <Link to={githubLink}>GitHub repository</Link>
         {/if}
 
         {#if moreInfoLink}
-            <p class="less-gap">
-                <Link to={moreInfoLink}
-                    >More information about this project</Link
-                >
-            </p>
+            <Link to={moreInfoLink}>More information about this project</Link>
         {/if}
     </div>
 
@@ -57,9 +49,6 @@
 </div>
 
 <style lang="scss">
-    .less-gap {
-        margin-bottom: 3px;
-    }
     .project-card {
         display: flex;
         flex-direction: row;
