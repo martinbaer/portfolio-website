@@ -13,7 +13,7 @@
     };
 </script>
 
-<div style="filter:drop-shadow(0px 0px 10px rgba(0,0,0,0.9))">
+<header>
     <Section color={colors.accentBackground}>
         <div class="header-container">
             <a on:click={handleLinkClick} href="/"
@@ -59,9 +59,16 @@
     <Section color={colors.dullAccentBackground}>
         <div style="height:25px" />
     </Section>
-</div>
+</header>
 
 <style lang="scss">
+    $shadow: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.9));
+    :global(.drop-shadow) {
+        filter: $shadow;
+        -webkit-filter: $shadow;
+        -moz-filter: $shadow;
+    }
+
     .header-container {
         display: flex;
         flex-direction: row;

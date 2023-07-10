@@ -4,7 +4,7 @@
 </script>
 
 <Section><div style="height:100px" /></Section>
-<div style="filter:drop-shadow(0px 0px 10px rgba(0,0,0,0.9))">
+<div class="dropshadow">
     <Section color={colors.dullAccentBackground}>
         <div style="height:25px" />
     </Section>

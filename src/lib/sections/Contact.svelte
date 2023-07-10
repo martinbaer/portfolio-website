@@ -12,28 +12,30 @@
     import phoneSvg from "../../assets/phone-solid.svg";
 </script>
 
-<title>Martin Baer | Contact</title>
-<Section isMain>
-    <h1>Contact</h1>
-    <div class="center">
-        <Link>
-            <img src={envelopeSvg} alt="Email" />
-            contact@martinbaer.au</Link
-        >
-        <Link>
-            <img src={phoneSvg} alt="Phone" />
-            Enquire or see resume</Link
-        >
-        <Link to="https://github.com/martinbaer"
-            ><img src={githubSvg} alt="GitHub" />GitHub</Link
-        >
-        <Link to="https://www.linkedin.com/in/martin-baer-a8b133282/">
-            <img src={linkedinSvg} alt="LinkedIn" />
+<article>
+    <title>Martin Baer | Contact</title>
+    <Section isMain>
+        <h1>Contact</h1>
+        <div class="center">
+            <Link>
+                <img src={envelopeSvg} alt="Email" />
+                contact@martinbaer.au</Link
+            >
+            <Link>
+                <img src={phoneSvg} alt="Phone" />
+                Enquire or see resume</Link
+            >
+            <Link to="https://github.com/martinbaer"
+                ><img src={githubSvg} alt="GitHub" />GitHub</Link
+            >
+            <Link to="https://www.linkedin.com/in/martin-baer-a8b133282/">
+                <img src={linkedinSvg} alt="LinkedIn" />
 
-            LinkedIn</Link
-        >
-    </div>
-</Section>
+                LinkedIn</Link
+            >
+        </div>
+    </Section>
+</article>
 
 <style lang="scss">
     .center {

@@ -35,4 +35,9 @@
 
 <style lang="scss">
     @use "./constants/colors.scss" as colors;
+
+    :global(article) {
+        flex: 1;
+        background-color: colors.$background;
+    }
 </style>
