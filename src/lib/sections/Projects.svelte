@@ -30,6 +30,25 @@
             moreInfoLink="/real-time-gravity-simulation"
             liveDemoLink="/real-time-gravity-simulation-demo"
             githubLink="https://github.com/martinbaer/real-time-gravity-sim"
+        />• Batch-Processed Barnes-Hut Gravity Simulation. This solo project was
+        written in C++ with the MPI library for the course “High Performance
+        Computing”. I optimise and parralelise my chosen algorithm, the
+        Barnes-Hut simulation, an O(n log n) solution for an n-body gravity
+        simulation. All versions were benchmarked and profiled
+        <ProjectCard
+            title="Batch-Processed Barnes-Hut Gravity Simulation"
+            tags={[
+                "Complete",
+                "Solo",
+                "Personal project",
+                "C++",
+                "MPI",
+                "OpenMP",
+                "CUDA"
+            ]}
+            description="This solo project was written in C++ with the MPI library for the course “High Performance Computing”. I optimise and parralelise my chosen algorithm, the Barnes-Hut simulation, an O(n log n) solution for an n-body gravity simulation. All versions were benchmarked and profiled."
+            imageLink="/placeholder.jpg"
+            githubLink="https://github.com/martinbaer/batch-processed-gravity-sim"
         />
     </Section>
 </article>
