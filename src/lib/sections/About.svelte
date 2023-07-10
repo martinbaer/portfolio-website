@@ -308,30 +308,17 @@
                 </ul>
             </div>
             <div class="skill-group">
-                <h4>Data structures and algorithms</h4>
+                <h4>Cyber Security</h4>
                 <ul>
-                    <li>Data structures & types</li>
-                    <li>
-                        Mapping of abstract information structures into
-                        representations on primary & secondary storage.
-                    </li>
-                    <li>Analysis of time & space complexity of algorithms</li>
-                    <li>Sequences, lists, stacks, queues</li>
-                    <li>Sets, multisets, tables</li>
-                    <li>Hash tables, trees, priority queue</li>
-                    <li>Sorting, string and graph search algorithms</li>
-                </ul>
-            </div>
-            <div class="skill-group">
-                <h4>Design</h4>
-                <ul>
-                    <li>Human-computer interaction</li>
-                    <li>UX design</li>
-                    <li>UI design and paradigms</li>
-                    <li>Web and mobile design principles</li>
-                    <li>Use-centred design</li>
-                    <li>Interaction analysis</li>
-                    <li>Evaluation techniques</li>
+                    <li>Symmetric and asymetric cryptography</li>
+                    <li>Modern cipher suites</li>
+                    <li>Network security</li>
+                    <li>Security protocols: TLS, IPSec, etc.</li>
+                    <li>Security frameworks</li>
+                    <li>Vulnerability and threat modelling</li>
+                    <li>Security risk management</li>
+                    <li>Practice simulating attacks</li>
+                    <li>Explaining attacks with respect to CIA triad</li>
                 </ul>
             </div>
             <div class="skill-group">
@@ -362,17 +349,43 @@
                 </ul>
             </div>
             <div class="skill-group">
-                <h4>Cyber Security</h4>
+                <h4>Data structures and algorithms</h4>
                 <ul>
-                    <li>Symmetric and asymetric cryptography</li>
-                    <li>Modern cipher suites</li>
-                    <li>Network security</li>
-                    <li>Security protocols: TLS, IPSec, etc.</li>
-                    <li>Security frameworks</li>
-                    <li>Vulnerability and threat modelling</li>
-                    <li>Security risk management</li>
-                    <li>Practice simulating attacks</li>
-                    <li>Explaining attacks with respect to CIA triad</li>
+                    <li>Data structures & types</li>
+                    <li>
+                        Mapping of abstract information structures into
+                        representations on primary & secondary storage.
+                    </li>
+                    <li>Analysis of time & space complexity of algorithms</li>
+                    <li>Sequences, lists, stacks, queues</li>
+                    <li>Sets, multisets, tables</li>
+                    <li>Hash tables, trees, priority queue</li>
+                    <li>Sorting, string and graph search algorithms</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h4>Design</h4>
+                <ul>
+                    <li>Human-computer interaction</li>
+                    <li>UX design</li>
+                    <li>UI design and paradigms</li>
+                    <li>Web and mobile design principles</li>
+                    <li>Use-centred design</li>
+                    <li>Interaction analysis</li>
+                    <li>Evaluation techniques</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h4>Blockchain and decentralised systems</h4>
+                <ul>
+                    <li>Bitcoin</li>
+                    <li>Ethereum</li>
+                    <li>Smart contracts</li>
+                    <li>Decentralised autonomous systems</li>
+                    <li>
+                        I did a seminar on post-quantum blockchain (proposed)
+                        solutions
+                    </li>
                 </ul>
             </div>
             <div class="skill-group">
@@ -386,19 +399,6 @@
                     <li>
                         Parallelisation techniques: SIMD, multithreading and
                         multiprocessing, grid and cluster computing,
-                    </li>
-                </ul>
-            </div>
-            <div class="skill-group">
-                <h4>Blockchain and decentralised systems</h4>
-                <ul>
-                    <li>Bitcoin</li>
-                    <li>Ethereum</li>
-                    <li>Smart contracts</li>
-                    <li>Decentralised autonomous systems</li>
-                    <li>
-                        I did a seminar on post-quantum blockchain (proposed)
-                        solutions
                     </li>
                 </ul>
             </div>
