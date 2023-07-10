@@ -1,7 +1,7 @@
 <script lang="ts">
     import url from "../../stores/url";
 
-    export let to: string;
+    export let to: string = "";
     const handleLinkClick = (e) => {
         e.preventDefault();
         if (to == $url.pathname) return;
@@ -12,12 +12,16 @@
 </script>
 
 <p class="less-gap">
-<a href={to} on:click={handleLinkClick}><slot /> →</a>
+    {#if to}
+        <a href={to} on:click={handleLinkClick}><slot /> →</a>
+    {:else}
+        <span><slot /></span>
+    {/if}
 </p>
 
 <style lang="scss">
     @use "../../constants/colors.scss" as colors;
-	.less-gap {
+    .less-gap {
         margin-bottom: 3px;
         margin-top: 5px;
     }
@@ -25,5 +29,9 @@
         color: colors.$dull-accent-background;
         text-decoration: none;
         text-decoration: underline;
+    }
+    span {
+        color: colors.$dull-accent-background;
+        font-family: "Custom Gill Sans";
     }
 </style>
