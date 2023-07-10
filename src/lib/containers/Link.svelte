@@ -2,7 +2,11 @@
     import url from "../../stores/url";
 
     export let to: string = "";
+    // check if to starts with http
+    let external: boolean = to.startsWith("http") || to.startsWith("mailto");
+
     const handleLinkClick = (e) => {
+        if (external) return;
         e.preventDefault();
         if (to == $url.pathname) return;
         // scroll to top

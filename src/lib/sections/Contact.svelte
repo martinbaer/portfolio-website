@@ -16,6 +16,14 @@
 <Section isMain>
     <h1>Contact</h1>
     <div class="center">
+        <Link>
+            <img src={envelopeSvg} alt="Email" />
+            contact@martinbaer.au</Link
+        >
+        <Link>
+            <img src={phoneSvg} alt="Phone" />
+            Enquire or see resume</Link
+        >
         <Link to="https://github.com/martinbaer"
             ><img src={githubSvg} alt="GitHub" />GitHub</Link
         >
@@ -23,14 +31,6 @@
             <img src={linkedinSvg} alt="LinkedIn" />
 
             LinkedIn</Link
-        >
-        <Link to="mailto:contact@martinbaer.au">
-            <img src={envelopeSvg} alt="Email" />
-            contact@martinbaer.au</Link
-        >
-        <Link>
-            <img src={phoneSvg} alt="Phone" />
-            Enquire or see resume</Link
         >
     </div>
 </Section>

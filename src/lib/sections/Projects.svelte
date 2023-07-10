@@ -7,6 +7,13 @@
     });
 </script>
 
+<!-- REMOVE LATER -->
+<Section
+    ><div style="height:50px" />
+    This section is under construction. Please check back later.</Section
+>
+<!--  -->
+
 <Section isMain>
     <h1 class="center">Projects</h1>
     <ProjectCard
