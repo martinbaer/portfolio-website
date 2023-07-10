@@ -1,5 +1,4 @@
 <script lang="ts">
-    import colors from "../../constants/colors";
     import Link from "../containers/Link.svelte";
     import Section from "../containers/Section.svelte";
     import { onMount } from "svelte";
@@ -12,7 +11,10 @@
     <Section>
         <h1>About me</h1>
         <h2 class="right">Who am I?</h2>
-        <div class="subsection" style="flex-direction: row-reverse;">
+        <div
+            class="subsection flex-reverse"
+            style="flex-direction: row-reverse;"
+        >
             <div class="right content">
                 <p>
                     I’m a motivated 4th year student at The University of
@@ -448,11 +450,8 @@
 
     .skill-group {
         ul {
-            // no bullets
             list-style-type: none;
-            // no margin
             margin: 0;
-            // no padding
             padding: 0;
         }
     }
@@ -461,10 +460,6 @@
         text-align: right;
         margin-left: auto;
     }
-    // h2 {
-    //     margin-bottom: 0;
-    //     margin-top: 50px;
-    // }
     .subsection {
         .content {
             width: calc(100% - 210px);
@@ -476,11 +471,8 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 10px;
-        // wrap
         flex-wrap: wrap;
-        // for screens smaller than 600px
         @media (max-width: 600px) {
-            // reverse
             .content {
                 width: 100%;
                 min-width: 0;
@@ -488,8 +480,8 @@
         }
     }
     .circle-container {
-        width: 170px; /* adjust to your needs */
-        height: 170px; /* adjust to your needs */
+        width: 170px;
+        height: 170px;
         border-radius: 50%;
         overflow: hidden;
     }

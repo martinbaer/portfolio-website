@@ -1,7 +1,6 @@
 <script lang="ts">
     export let title: string;
     export let tags: string[];
-    export let description: string;
     export let imageLink: string;
 
     export let moreInfoLink: string = "";
@@ -30,7 +29,7 @@
         {#each tagCards as { component: TagCard, props }}
             <TagCard {...props} />
         {/each}
-        <p>{description}</p>
+        <p><slot /></p>
 
         {#if liveDemoLink}
             <Link to={liveDemoLink}>Open live demo</Link>

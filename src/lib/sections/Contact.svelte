@@ -15,7 +15,7 @@
 <article>
     <Section isMain>
         <h1>Contact</h1>
-        <div class="center">
+        <div class="contact-info center">
             <Link>
                 <img src={envelopeSvg} alt="Email" />
                 contact@martinbaer.au</Link
@@ -37,10 +37,8 @@
 </article>
 
 <style lang="scss">
-    .center {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .contact-info {
+        margin-top: 30px;
     }
     img {
         width: 15px;
