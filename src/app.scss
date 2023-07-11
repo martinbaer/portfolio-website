@@ -3,6 +3,7 @@
 $font-size: 18px;
 $h1-font-size: 45px;
 $h2-font-size: 30px;
+$h3-font-size: 25px;
 
 
 ul li {
@@ -63,7 +64,7 @@ h1 {
 	font-size: $h1-font-size;
         // reduce top and bottom margin to 20px and 10px
         margin-top: 50px;
-		margin-bottom: 10px;
+		margin-bottom: 30px;
 		color: colors.$accent-background;
 		text-align: center;
         margin-left: auto;
@@ -71,15 +72,15 @@ h1 {
 }
 
 h2 {
-	color: colors.$dull-accent-background;
+	color: colors.$accent-background;
 	margin-top: 50px;
 	font-size: $h2-font-size;
 	margin-bottom: 0;
 }
 
 h3 {
-	font-size: 20px;	
-	color: colors.$dull-accent-background;
+	font-size: $h3-font-size;
+	color: colors.$accent-background;
 	margin: 50px 0 10px 0;
 	// underline
 	// text-decoration: underline;

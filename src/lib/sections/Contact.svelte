@@ -38,8 +38,8 @@
                 Enquire or see resume
             </Link>
             <div style="height: 10px" />
-            <Link to="https://github.com/martinbaer"
-                ><img src={githubSvg} alt="GitHub" />
+            <Link to="https://github.com/martinbaer">
+                <img src={githubSvg} alt="GitHub" />
                 martinbaer - GitHub
             </Link>
             <div style="height: 10px" />

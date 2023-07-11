@@ -253,7 +253,7 @@
             </div>
         </div>
 
-        <p class="right shortened">
+        <p class="right shortened" style="margin-top:60px">
             Below I outline some of the coursework that I have done. I have a
             solid introduction into a wide range of topics, and I am always
             looking to learn more.

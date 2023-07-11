@@ -4,16 +4,7 @@
     import Header from "./lib/sections/Header.svelte";
     import Projects from "./lib/sections/Projects.svelte";
     import Contact from "./lib/sections/Contact.svelte";
-
-    // if url is not "/" or "/projects" or "/contact", redirect to "/"
-    import { onMount } from "svelte";
-    onMount(() => {
-        if (
-            !["/", "/projects", "/contact"].includes(window.location.pathname)
-        ) {
-            history.pushState(null, "", "/");
-        }
-    });
+    import NotFound from "./lib/sections/NotFound.svelte";
 
     import url from "./stores/url";
 </script>
@@ -29,6 +20,8 @@
         <Projects />
     {:else if $url.pathname == "/contact"}
         <Contact />
+    {:else}
+        <NotFound />
     {/if}
     <Footer />
 </main>
