@@ -10,14 +10,6 @@
 <article>
     <Section>
         <h1>Projects</h1>
-        <!-- •	Real-Time Barnes-Hut Gravity Simulation: This solo personal project is an interactive, real-time variant of a previously batch-processed model. It was written in Rust and JavaScript to try out compiling to WebAssembly with wasm-pack. It allows the computationally-intensive Barnes-Hut algorithm to run natively in a web browser with up to 10 000 bodies before performance decline. 
-		•	Batch-Processed Barnes-Hut Gravity Simulation: This solo project was written in C++ with the MPI library for the course “High Performance Computing”. I optimise and parralelise my chosen algorithm, the Barnes-Hut simulation, an O(n log n) solution for an n-body gravity simulation. All versions were benchmarked and profiled.
-		•	“Synaesthesia” Team Build Project: This team project was completed as the capstone project in “Design Computing Studio 3 – Build”. It is an enclosed walk-in synausthesia experience in which the sense of touch is translated to sound. Capacitive sensors attached to plants, flowers, water, metal and other conductive materials, trigger sounds to play when touched. Sensor input processed into booleans by Arduino, then send to Python program which layers and plays sounds using ‘pygame’ library. Photos available on my portfolio.
-		•	UQ Cryptoclub DAO: This team project was completed in a pair in the course “Advanced Topics in Cyber Security”. It’s a decentralised autonomous organisation to facilitate collective decision-making on hyperthetical club matters such as electing leaders, planning events, and managing club money. Two main components: a browser front-end that uses JavaScript ‘ethers’ library and MetaMask; and a smart contract back-end deployed on Optimism testnet. 
-		•	React and Svelte UI Suite: This is a work-in-progress solo project. Set of UI containers and interactive components to be used for my future projects. The components’ colours are flexible but the suite has a fixed motif of superelipses for rounding the corners and dropshadows to contrast the layers.
-		•	P2P Web Game: This is a work-in-progress team project to explore the ‘wasm-peers’ Rust library in the context of a P2P web game written in Rust and JavaScript and compiled to WebAssembly. 
-		•	Tutor-finding Web App: This is a work-in-progress solo project web app to solve the real-life problems with the existing tutor-finding web solutions faced by both myself, as a tutor, and many parents I have talked to.
-		 -->
         <ProjectCard
             title="Real-Time Barnes-Hut Gravity Simulation"
             tags={[
@@ -105,10 +97,27 @@
             front-end that uses JavaScript ‘ethers’ library and MetaMask; and a
             smart contract back-end deployed on Optimism testnet.
         </ProjectCard>
+		<ProjectCard
+            title="Portfolio Website (this)"
+            tags={[
+                "Complete",
+                "Solo",
+                "Personal project",
+                "Svelte",
+                "TypeScript",
+                "SCSS"
+            ]}
+            imageLink="/placeholder.jpg"
+            githubLink="https://github.com/martinbaer/portfolio-website"
+        >
+            I created this website to showcase my projects and skills. I used
+            the Svelte framework (with TypeScript and SCSS) built with Vite. I
+            deployed it on Cloudflare Pages, with CI/CD linked with my GitHub.
+        </ProjectCard>
         <ProjectCard
             title="React and Svelte UI Suite"
             tags={[
-                "In progress",
+                "Work-in-progress",
                 "Solo",
                 "Personal project",
                 "React",
@@ -129,7 +138,7 @@
         <ProjectCard
             title="P2P Web Game"
             tags={[
-                "In progress",
+                "Work-in-progress",
                 "Team",
                 "Personal project",
                 "Rust",
@@ -146,7 +155,7 @@
         <ProjectCard
             title="Tutor-finding Web App"
             tags={[
-                "In progress",
+                "Work-in-progress",
                 "Solo",
                 "Personal project",
                 "React",
@@ -160,6 +169,7 @@
             real-life problems with the existing tutor-finding web solutions
             faced by both myself, as a tutor, and many parents I have talked to.
         </ProjectCard>
+        
     </Section>
 </article>
 
