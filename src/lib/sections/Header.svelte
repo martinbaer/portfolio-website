@@ -57,12 +57,12 @@
 <style lang="scss">
     $shadow: drop-shadow(0px 0px 10px rgba(50, 50, 50, 0.9));
 
-	#my-name {
-		font-family: "Reenie Beanie";
-		h1 {
-			font-size: 60px;
-		}
-	}
+    #my-name {
+        font-family: "Reenie Beanie";
+        h1 {
+            font-size: 60px;
+        }
+    }
     .underline {
         text-decoration: underline;
     }
@@ -88,11 +88,6 @@
         margin-right: 15px;
     }
     // centre the nav
-    nav {
-        display: flex;
-        justify-content: center;
-        // margin-bottom: 15px; // row
-    }
     // remove the list style
     ul {
         list-style: none;
