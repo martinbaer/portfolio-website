@@ -97,7 +97,7 @@
             front-end that uses JavaScript ‘ethers’ library and MetaMask; and a
             smart contract back-end deployed on Optimism testnet.
         </ProjectCard>
-		<ProjectCard
+        <ProjectCard
             title="Portfolio Website (this)"
             tags={[
                 "Complete",
@@ -169,7 +169,6 @@
             real-life problems with the existing tutor-finding web solutions
             faced by both myself, as a tutor, and many parents I have talked to.
         </ProjectCard>
-        
     </Section>
 </article>
 

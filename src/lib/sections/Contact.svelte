@@ -20,18 +20,19 @@
 </script>
 
 <article>
-    <Section isMain>
+    <Section>
         <h1>Contact</h1>
         <div class="contact-info center">
             <Link>
                 <img src={envelopeSvg} alt="Email" />
                 contact@martinbaer.au</Link
             >
-            <button on:click={copyEmail}>Copy email to clipboard</button>
+            <button on:click={copyEmail}>Copy email address to clipboard</button
+            >
             {#if emailCopied}
                 <div class="success-message">Copied!</div>
             {/if}
-            <Link to="mailto:contact@martinbaer.au">Send email</Link>
+            <Link to="mailto:contact@martinbaer.au">Write me an email</Link>
             <div style="height: 10px" />
             <Link>
                 <img src={phoneSvg} alt="Phone" />

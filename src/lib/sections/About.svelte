@@ -405,6 +405,7 @@
                 </ul>
             </div>
         </div>
+        <div style="height: 40px" />
         <div class="right">
             <Link to="/projects"
                 >Check out my projects where I use these skills</Link
@@ -526,7 +527,7 @@
     }
 
     .circle-container {
-        @media (max-width: 400px) {
+        @media (max-width: calc(600px + $image-width)) {
             margin: 0 auto;
             margin-top: 20px;
         }
