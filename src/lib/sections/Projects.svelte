@@ -52,7 +52,7 @@
             profiled.
         </ProjectCard>
         <ProjectCard
-            title="“Touch-Me-Not - Synaesthesia Experience” Build Project"
+            title="Synaesthesia Experience — Build Project"
             tags={[
                 "Complete",
                 "Team",

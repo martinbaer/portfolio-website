@@ -71,7 +71,7 @@
                 </p>
             </div>
             <div class="circle-container">
-                <img src="/placeholder.jpg" alt="placeholder" />
+                <img src="/hiking.jpg" alt="placeholder" />
             </div>
         </div>
         <div class="right shortened">
@@ -420,24 +420,24 @@
     @use "../../constants/colors.scss" as colors;
 
 	ul li {
-	// remove bullet
-	list-style: none;
-}
+		// remove bullet
+		list-style: none;
+	}
 
-ul li::before {
-	content: "\2022";
-	color: colors.$accent-background;
-	font-weight: bold;
-	font-size: larger;
-	display: inline-block;
-	width: 1em;
-	margin-left: -1em;
+	ul li::before {
+		content: "\2022";
+		color: colors.$accent-background;
+		font-weight: bold;
+		font-size: larger;
+		display: inline-block;
+		width: 1em;
+		margin-left: -1em;
 
-	// move down
-	position: relative;
-	top: 0.08em;
-	left: 0.2em;
-}
+		// move down
+		position: relative;
+		top: 0.08em;
+		left: 0.2em;
+	}
 
     .shortened {
         width: calc(100% - 210px);
@@ -493,7 +493,7 @@ ul li::before {
     }
     .subsection {
         .content {
-            width: calc(100% - 230px);
+            width: calc(100% - 275px);
             min-width: 400px;
         }
 
@@ -511,8 +511,8 @@ ul li::before {
         }
     }
     .circle-container {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
         border-radius: 50%;
         overflow: hidden;
     }
