@@ -20,7 +20,7 @@
                 "JavaScript",
                 "WebAssembly"
             ]}
-            imageLink="/placeholder.jpg"
+            imageLink="/images/spaceclicker.jpg"
             liveDemoLink="https://spaceclicker.martinbaer.au/"
             githubLink="https://github.com/martinbaer/real-time-gravity-sim"
         >
@@ -92,10 +92,10 @@
             This team project was completed in a pair in the course “Advanced
             Topics in Cyber Security”. It’s a decentralised autonomous
             organisation to facilitate collective decision-making on
-            hyperthetical club matters such as electing leaders, planning
-            events, and managing club money. Two main components: a browser
-            front-end that uses JavaScript ‘ethers’ library and MetaMask; and a
-            smart contract back-end deployed on Optimism testnet.
+            hypothetical club matters such as electing leaders, planning events,
+            and managing club money. Two main components: a browser front-end
+            that uses JavaScript ‘ethers’ library and MetaMask; and a smart
+            contract back-end deployed on Optimism testnet.
         </ProjectCard>
         <ProjectCard
             title="Portfolio Website (this)"

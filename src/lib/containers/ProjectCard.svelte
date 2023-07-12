@@ -68,7 +68,7 @@
     }
     img {
         width: 30%;
-        border-radius: 5px;
+        // border-radius: 5px;
         @media (max-width: 600px) {
             width: 100%;
         }

@@ -20,9 +20,8 @@
                     I’m a motivated 4th year student at The University of
                     Queensland. I study a Bachelor of Engineering (Hons.) and
                     Master of Engineering in Software and have a diverse range
-                    of passions in the field. I'm dedicated to continuous
-                    learning, receptive to constructive feedback, and I love
-                    making things.
+                    of interests in the field. I am passionate about learning, I
+                    love making things, and I am always receptive to feedback.
                 </p>
                 <p>
                     I created this portfolio website to connect with
