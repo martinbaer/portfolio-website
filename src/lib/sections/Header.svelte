@@ -79,6 +79,13 @@
         // centre
         align-items: center;
         width: 100%;
+        @media (max-width: 600px) {
+            flex-direction: column;
+            h1 {
+                // no margin below
+                margin-bottom: 0;
+            }
+        }
     }
     // centre the h1
     h1 {
@@ -93,7 +100,10 @@
         list-style: none;
         // row
         display: flex;
-        flex-direction: row;
+        flex-flow: row wrap;
+        // centre
+        align-items: center;
+        justify-content: center;
         // gap
         gap: 1rem;
         // remove right margin
