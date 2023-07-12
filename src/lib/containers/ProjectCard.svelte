@@ -61,9 +61,12 @@
     }
     .text-section {
         width: 66%;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         @media (max-width: 600px) {
             width: 100%;
+            p {
+                margin-bottom: 5px;
+            }
         }
     }
     img {
@@ -71,6 +74,7 @@
         // border-radius: 5px;
         @media (max-width: 600px) {
             width: 100%;
+            margin-bottom: 30px;
         }
     }
     h2 {
