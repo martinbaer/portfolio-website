@@ -21,7 +21,7 @@
                 "WebAssembly"
             ]}
             imageLink="/placeholder.jpg"
-            liveDemoLink="/real-time-gravity-simulation-demo"
+            liveDemoLink="https://spaceclicker.martinbaer.au/"
             githubLink="https://github.com/martinbaer/real-time-gravity-sim"
         >
             This solo personal project is an interactive, real-time variant of a
@@ -87,7 +87,7 @@
             ]}
             imageLink="/placeholder.jpg"
             githubLink="https://github.com/martinbaer/uq-cryptoclub-dao"
-            liveDemoLink="/uq-cryptoclub-dao"
+            liveDemoLink="https://uqcryptoclubdao.martinbaer.au/"
         >
             This team project was completed in a pair in the course “Advanced
             Topics in Cyber Security”. It’s a decentralised autonomous

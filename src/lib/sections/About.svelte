@@ -71,7 +71,7 @@
                 </p>
             </div>
             <div class="circle-container">
-                <img src="/hiking.jpg" alt="placeholder" />
+                <img src="/images/hiking.jpg" alt="placeholder" />
             </div>
         </div>
         <div class="right shortened">
@@ -422,6 +422,8 @@
 
     $image-width: 250px;
 
+    $mobile-view-width: 730px;
+
     ul li {
         // remove bullet
         list-style: none;
@@ -444,7 +446,7 @@
 
     .shortened {
         width: calc(100% - $image-width);
-        @media (max-width: 600px) {
+        @media (max-width: $mobile-view-width) {
             width: 100%;
         }
     }
@@ -495,7 +497,7 @@
     }
     .subsection {
         .content {
-            width: calc(100% - $image-width - 25px);
+            width: calc(100% - $image-width - 35px);
             min-width: 400px;
         }
 
@@ -505,7 +507,7 @@
         align-items: center;
         margin-bottom: 10px;
         flex-wrap: wrap;
-        @media (max-width: 600px) {
+        @media (max-width: $mobile-view-width) {
             .content {
                 width: 100%;
                 min-width: 0;
@@ -527,7 +529,7 @@
     }
 
     .circle-container {
-        @media (max-width: calc(600px + $image-width)) {
+        @media (max-width: $mobile-view-width) {
             margin: 0 auto;
             margin-top: 20px;
         }

@@ -7,7 +7,7 @@
 </script>
 
 <article>
-    <Section isMain>
+    <Section>
         <h1>404 Page Not Found</h1>
 
         <p class="center">
