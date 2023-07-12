@@ -419,28 +419,30 @@
 <style lang="scss">
     @use "../../constants/colors.scss" as colors;
 
-	ul li {
-		// remove bullet
-		list-style: none;
-	}
+    $image-width: 250px;
 
-	ul li::before {
-		content: "\2022";
-		color: colors.$accent-background;
-		font-weight: bold;
-		font-size: larger;
-		display: inline-block;
-		width: 1em;
-		margin-left: -1em;
+    ul li {
+        // remove bullet
+        list-style: none;
+    }
 
-		// move down
-		position: relative;
-		top: 0.08em;
-		left: 0.2em;
-	}
+    ul li::before {
+        content: "\2022";
+        color: colors.$accent-background;
+        font-weight: bold;
+        font-size: larger;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+
+        // move down
+        position: relative;
+        top: 0.08em;
+        left: 0.2em;
+    }
 
     .shortened {
-        width: calc(100% - 210px);
+        width: calc(100% - $image-width);
         @media (max-width: 600px) {
             width: 100%;
         }
@@ -476,7 +478,6 @@
     }
 
     .skill-group {
-		
         ul {
             list-style-type: none;
             margin: 0;
@@ -493,7 +494,7 @@
     }
     .subsection {
         .content {
-            width: calc(100% - 275px);
+            width: calc(100% - $image-width - 25px);
             min-width: 400px;
         }
 
@@ -511,8 +512,8 @@
         }
     }
     .circle-container {
-        width: 250px;
-        height: 250px;
+        width: $image-width;
+        height: $image-width;
         border-radius: 50%;
         overflow: hidden;
     }
@@ -525,9 +526,9 @@
     }
 
     .circle-container {
-        @media (max-width: 600px) {
+        @media (max-width: 400px) {
             margin: 0 auto;
-            // margin-top: 20px;
+            margin-top: 20px;
         }
     }
 </style>
