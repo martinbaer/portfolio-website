@@ -1,7 +1,6 @@
 <script lang="ts">
     import colors from "../../constants/colors";
     export let color: string = colors.background;
-    export let isMain: boolean = false;
 
     const pageNumber = (page: String): number => {
         let pageNumber = 0;

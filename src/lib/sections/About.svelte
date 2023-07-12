@@ -419,6 +419,26 @@
 <style lang="scss">
     @use "../../constants/colors.scss" as colors;
 
+	ul li {
+	// remove bullet
+	list-style: none;
+}
+
+ul li::before {
+	content: "\2022";
+	color: colors.$accent-background;
+	font-weight: bold;
+	font-size: larger;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+
+	// move down
+	position: relative;
+	top: 0.08em;
+	left: 0.2em;
+}
+
     .shortened {
         width: calc(100% - 210px);
         @media (max-width: 600px) {
@@ -456,6 +476,7 @@
     }
 
     .skill-group {
+		
         ul {
             list-style-type: none;
             margin: 0;
