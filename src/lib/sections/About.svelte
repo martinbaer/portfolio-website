@@ -39,7 +39,10 @@
                 <div style="height: 20px;" />
             </div>
             <div class="circle-container">
-                <img src="/placeholder.jpg" alt="placeholder" />
+                <img
+                    src="/images/martin_baer_headshot.jpg"
+                    alt="Martin Baer head-shot"
+                />
             </div>
         </div>
         <h2>What am I interested in?</h2>
@@ -70,7 +73,10 @@
                 </p>
             </div>
             <div class="circle-container">
-                <img src="/images/hiking.jpg" alt="placeholder" />
+                <img
+                    src="/images/martin_baer_hiking.jpg"
+                    alt="Martin Baer hiking"
+                />
             </div>
         </div>
         <div class="right shortened">
