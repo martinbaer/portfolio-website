@@ -1,7 +1,7 @@
 <script lang="ts">
     export let title: string;
     export let tags: string[];
-    export let imageLink: string;
+    export let imageLink: string = "";
 
     export let moreInfoLink: string = "";
     export let liveDemoLink: string = "";
@@ -9,6 +9,11 @@
 
     import Link from "./Link.svelte";
     import TagCard from "./TagCard.svelte";
+
+    import wrenchIcon from "../../assets/wrench-blue.svg";
+    if (!imageLink) {
+        imageLink = wrenchIcon;
+    }
 
     // create list of tag cards
     let tagCards: { component: typeof TagCard; props: Record<string, any> }[] =

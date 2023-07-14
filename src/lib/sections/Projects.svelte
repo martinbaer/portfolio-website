@@ -30,6 +30,7 @@
             allows the computationally-intensive Barnes-Hut algorithm to run
             natively in a web browser with up to 10 000 bodies before
             performance decline.
+            <p>Note: I'm still fixing the usability of the live demo.</p>
         </ProjectCard>
         <ProjectCard
             title="Batch-Processed Barnes-Hut Gravity Simulation"
@@ -42,7 +43,7 @@
                 "OpenMP",
                 "CUDA"
             ]}
-            imageLink="/placeholder.jpg"
+            imageLink="/images/batch_processed_gravity_sim.jpg"
             githubLink="https://github.com/martinbaer/batch-processed-gravity-sim"
         >
             This solo project was written in C++ with the MPI library for the
@@ -60,7 +61,7 @@
                 "Python",
                 "Arduino"
             ]}
-            imageLink="/placeholder.jpg"
+            imageLink="/images/synaesthesia.jpg"
             githubLink="https://github.com/DECO3801-The-Better-Half/Touch-Me-Not"
             moreInfoLink="/synaesthesia"
         >
@@ -70,8 +71,8 @@
             Capacitive sensors attached to plants, flowers, water, metal and
             other conductive materials, trigger sounds to play when touched.
             Sensor input processed into booleans by Arduino, then send to Python
-            program which layers and plays sounds using ‘pygame’ library. Photos
-            available on my portfolio.
+            program which layers and plays sounds using ‘pygame’ library. Video
+            available.
         </ProjectCard>
         <ProjectCard
             title="UQ Cryptoclub DAO"
@@ -85,7 +86,7 @@
                 "Optimism",
                 "MetaMask"
             ]}
-            imageLink="/placeholder.jpg"
+            imageLink="/images/uqcryptoclubdao.jpg"
             githubLink="https://github.com/martinbaer/uq-cryptoclub-dao"
             liveDemoLink="https://uqcryptoclubdao.martinbaer.au/"
         >
@@ -107,7 +108,7 @@
                 "TypeScript",
                 "SCSS"
             ]}
-            imageLink="/placeholder.jpg"
+            imageLink="/images/portfolio_website.jpg"
             githubLink="https://github.com/martinbaer/portfolio-website"
         >
             I created this website to showcase my projects and skills. I used
@@ -125,7 +126,6 @@
                 "TypeScript",
                 "SCSS"
             ]}
-            imageLink="/placeholder.jpg"
             githubLink="https://github.com/martinbaer/superellipse-ui-set"
             liveDemoLink="/superellipse-ui-set"
         >
@@ -145,7 +145,6 @@
                 "JavaScript",
                 "WebAssembly"
             ]}
-            imageLink="/placeholder.jpg"
             githubLink="https://github.com/martinbaer/wasm-web-game"
         >
             This is a work-in-progress team project to explore the ‘wasm-peers’
@@ -162,7 +161,6 @@
                 "TypeScript",
                 "SCSS"
             ]}
-            imageLink="/placeholder.jpg"
             githubLink="https://github.com/martinbaer/tutorlink_v1"
         >
             This is a work-in-progress solo project web app to solve the
