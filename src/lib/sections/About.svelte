@@ -19,8 +19,8 @@
                 <p>
                     I’m a motivated 4th year student at The University of
                     Queensland. I study a Bachelor of Engineering (Hons.) and
-                    Master of Engineering in Software and have a diverse range
-                    of interests in the field. I have a passion for learning, I
+                    Master of Engineering in Software and have a broad range of
+                    interests in the field. I have a passion for learning, I
                     love making things, and I'm always receptive to feedback.
                 </p>
                 <p>
@@ -450,7 +450,7 @@
     }
 
     .shortened {
-        width: calc(100% - $image-width);
+        width: calc(100% - $image-width - 35px);
         @media (max-width: $mobile-view-width) {
             width: 100%;
         }
