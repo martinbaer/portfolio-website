@@ -20,13 +20,18 @@
                     I’m a motivated 4th year student at The University of
                     Queensland. I study a Bachelor of Engineering (Hons.) and
                     Master of Engineering in Software and have a broad range of
-                    interests in the field. I have a passion for learning, I
-                    love making things, and I'm always receptive to feedback.
+                    interests including machine learning, distributed systems
+                    and consumer software development. I have a passion for
+                    learning, I love making things, and I'm always receptive to
+                    feedback.
                 </p>
                 <p>
                     I created this portfolio website to connect with
-                    organisations that can offer a constructive environment and
-                    will support my growth. Email me at contact@martinbaer.au.
+                    forward-thinking organisations where I can leverage my
+                    skills in Software Engineering in a challenging, problem
+                    solving environment. I value friendly and constructive work
+                    cultures.
+                    <!-- teamwork stuff -->
                 </p>
                 <Link to="/contact">Contact me</Link>
                 <Link to="/projects">Check out my projects</Link>
@@ -297,8 +302,9 @@
             <div class="skill-group">
                 <h4>Data science and machine learning</h4>
                 <ul>
-                    <li>Evaluation techniques</li>
-                    <li>Performance improvement techniques</li>
+                    <li>Data analysis</li>
+                    <li>Model evaluation techniques</li>
+                    <li>Model performance improvement techniques</li>
                     <li>Clustering</li>
                     <li>Dimensionality reduction</li>
                     <li>Variety of generative models</li>
