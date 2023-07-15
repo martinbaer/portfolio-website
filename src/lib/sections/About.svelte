@@ -43,10 +43,7 @@
                 <div style="height: 20px;" />
             </div>
             <div class="circle-container">
-                <img
-                    src="/images/martin_baer_headshot.jpg"
-                    alt="Martin Baer head-shot"
-                />
+                <img src="/images/martin_baer_headshot.jpg" alt="Martin Baer" />
             </div>
         </div>
         <h2>What am I interested in?</h2>
@@ -128,6 +125,7 @@
                 <h4>Other</h4>
                 <ul>
                     <li>SQL</li>
+                    <li>PHP</li>
                     <li>Solidity</li>
                     <li>CUDA</li>
                     <li>MATLAB</li>
