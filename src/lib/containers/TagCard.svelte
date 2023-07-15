@@ -14,8 +14,16 @@
     import rust from "../../assets/rust.svg";
     import js from "../../assets/js.svg";
     import webAssembly from "../../assets/WebAssembly_Logo.svg";
+    import python from "../../assets/python.svg";
+    import solidity from "../../assets/solidity.svg";
+    import ethereum from "../../assets/ethereum.svg";
+    import svelte from "../../assets/svelte.svg";
+    import typescript from "../../assets/typescript-fill.svg";
+    import sass from "../../assets/sass.svg";
+    import cpp from "../../assets/cpp.svg";
+    import cuda from "../../assets/cuda.svg";
 
-	import other from "../../assets/microchip-solid.svg";
+    import other from "../../assets/microchip-solid.svg";
 
     let icon: string = "";
     switch (title) {
@@ -46,8 +54,32 @@
         case "WebAssembly":
             icon = webAssembly;
             break;
+        case "Python":
+            icon = python;
+            break;
+        case "Solidity":
+            icon = solidity;
+            break;
+        case "Ethereum":
+            icon = ethereum;
+            break;
+        case "Svelte":
+            icon = svelte;
+            break;
+        case "TypeScript":
+            icon = typescript;
+            break;
+        case "SCSS":
+            icon = sass;
+            break;
+        case "C++":
+            icon = cpp;
+            break;
+        case "CUDA":
+            icon = cuda;
+            break;
         default:
-			icon = other;
+            icon = other;
             break;
     }
 </script>
