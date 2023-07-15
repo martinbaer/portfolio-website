@@ -31,7 +31,6 @@
                     skills in Software Engineering in a challenging, problem
                     solving environment. I value friendly and constructive work
                     cultures.
-                    <!-- teamwork stuff -->
                 </p>
                 <Link to="/contact">Contact me</Link>
                 <Link to="/projects">Check out my projects</Link>
