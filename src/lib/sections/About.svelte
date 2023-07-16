@@ -21,7 +21,7 @@
                     Queensland. I study a Bachelor of Engineering (Hons.) and
                     Master of Engineering in Software and have a broad range of
                     interests including machine learning, distributed systems
-                    and consumer software development. I have a passion for
+                    and software development processes. I have a passion for
                     learning, I love making things, and I'm always receptive to
                     feedback.
                 </p>
@@ -29,8 +29,8 @@
                     I created this portfolio website to connect with
                     forward-thinking organisations where I can leverage my
                     skills in Software Engineering in a challenging, problem
-                    solving environment. I value friendly and constructive work
-                    cultures.
+                    solving environment. I'm looking for an opportunity to work
+                    with a friendly and constructive team.
                 </p>
                 <Link to="/contact">Contact me</Link>
                 <Link to="/projects">Check out my projects</Link>
