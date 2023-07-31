@@ -102,7 +102,7 @@
         justify-content: space-between;
         // bottom
         align-items: flex-end;
-        color: colors.$accent;
+        color: black;
         padding: 40px 0 30px 0;
     }
 </style>

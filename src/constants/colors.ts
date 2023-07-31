@@ -15,7 +15,7 @@
 
 const colors = {
 	background: '#F6F5F5',
-	accentBackground: '#F6F5F5',
+	accentBackground: '#F7F6F6',
 	accent: '#152d4f',
 	dullAccent: '#244e89',
 	primary: '#6090d5',

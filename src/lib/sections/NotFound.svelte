@@ -24,7 +24,7 @@
     button {
         // remove all style
         all: unset;
-        color: colors.$accent-background;
+        color: colors.$accent;
         text-decoration: underline;
         // mouse
         cursor: pointer;

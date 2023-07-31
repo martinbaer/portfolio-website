@@ -93,7 +93,7 @@
         font-size: 40px;
         margin: 25px 0;
         margin-right: 15px;
-        color: black;
+        color: colors.$accent;
     }
     ul {
         list-style: none;
