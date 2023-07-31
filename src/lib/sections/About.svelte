@@ -20,10 +20,9 @@
                     I’m a motivated 4th year student at The University of
                     Queensland. I study a Bachelor of Engineering (Hons.) and
                     Master of Engineering in Software and have a broad range of
-                    interests including machine learning, distributed systems
-                    and software development processes. I have a passion for
-                    learning, I love making things, and I'm always receptive to
-                    feedback.
+                    interests especially in cyber security and data science. I
+                    have a passion for learning, I love making things, and I'm
+                    always receptive to feedback.
                 </p>
                 <p>
                     I created this portfolio website to connect with
@@ -43,7 +42,8 @@
                 <div style="height: 20px;" />
             </div>
             <div class="circle-container">
-                <img src="/images/martin_baer_headshot.jpg" alt="Martin Baer" />
+                <img src="/images/placeholder.jpg" alt="Martin Baer" />
+                <!-- <img src="/images/martin_baer_headshot.jpg" alt="Martin Baer" /> -->
             </div>
         </div>
         <h2>What am I interested in?</h2>
@@ -55,12 +55,12 @@
                 </p>
                 <ul>
                     <li>Software engineering processes and management</li>
+                    <li>Cyber security and cryptographic systems</li>
                     <li>Software architecture</li>
                     <li>Machine learning</li>
-                    <li>Cyber security and cryptographic systems</li>
                     <li>Web information systems</li>
-                    <li>Design and human computer interaction</li>
                     <li>Blockchain and decentralised systems</li>
+                    <li>Design and human-computer interaction</li>
                     <li>Computer networks</li>
                     <li>High-performance computing</li>
                 </ul>
@@ -260,11 +260,17 @@
             </div>
         </div>
 
-        <p class="right shortened" style="margin-top:60px">
-            Below I outline some of the coursework that I have done. I have a
-            solid introduction into a wide range of topics, and I am always
-            looking to learn more.
-        </p>
+        <div class="right shortened" style="margin-top:60px">
+            <p>
+                Below I've outlined some of the coursework that I have done. I
+                have a solid introduction into a wide range of topics, and I am
+                always looking to learn more.
+            </p>
+            <p>
+                I've also elaborated on some of the specific topics covered in
+                each area.
+            </p>
+        </div>
 
         <h3>Coursework</h3>
         <div class="skill-type-large">
@@ -415,9 +421,7 @@
         </div>
         <div style="height: 40px" />
         <div class="right">
-            <Link to="/projects"
-                >Check out my projects where I use these skills</Link
-            >
+            <Link to="/projects">Check out my projects</Link>
         </div>
         <div class="right">
             <Link to="/contact">Contact me</Link>
