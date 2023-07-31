@@ -3,8 +3,8 @@
     import Section from "../containers/Section.svelte";
     import Link from "../containers/Link.svelte";
 
-    import githubSvg from "../../assets/github-white.svg";
-    import linkedinSvg from "../../assets/linkedin-in-white.svg";
+    import githubSvg from "../../assets/github.svg";
+    import linkedinSvg from "../../assets/linkedin-in.svg";
 
     import url from "../../stores/url";
 
@@ -26,9 +26,9 @@
 
 <Section><div style="height:100px" /></Section>
 <div class="drop-shadow">
-    <Section color={colors.dullAccentBackground}>
+    <!-- <Section color={colors.dullAccentBackground}>
         <div style="height:25px" />
-    </Section>
+    </Section> -->
     <Section color={colors.accentBackground}>
         <footer>
             <span class="left footer-row">
@@ -40,22 +40,18 @@
 
             <span class="right footer-row">
                 <Link to="https://github.com/martinbaer" noArrow
-                    ><img class="changeToWhite" src={githubSvg} alt="GitHub" />
+                    ><img src={githubSvg} alt="GitHub" />
                 </Link>
                 <Link
                     to="https://www.linkedin.com/in/martin-baer-a8b133282/"
                     noArrow
                 >
-                    <img
-                        class="changeToWhite"
-                        src={linkedinSvg}
-                        alt="LinkedIn"
-                    />
+                    <img src={linkedinSvg} alt="LinkedIn" />
                 </Link>
                 <span>contact@martinbaer.au</span>
                 <Link
                     to="https://github.com/martinbaer/portfolio-website"
-                    color={colors.background}
+                    color="black"
                 >
                     <span class="white">View source code for this website</span>
                 </Link>
@@ -69,12 +65,12 @@
 
     #copyright {
         margin-bottom: 3px;
-        margin-top: 5px;
+        margin-top: 7px;
     }
 
     a {
         text-decoration: none;
-        color: colors.$background;
+        color: black;
         font-family: "Custom Gill Sans";
     }
     .footer-row {
@@ -106,7 +102,7 @@
         justify-content: space-between;
         // bottom
         align-items: flex-end;
-        color: colors.$background;
-        padding: 30px 0;
+        color: colors.$accent;
+        padding: 40px 0 30px 0;
     }
 </style>

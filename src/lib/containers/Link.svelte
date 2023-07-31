@@ -4,7 +4,7 @@
 
     export let to: string = "";
     export let noArrow: boolean = false;
-    export let color: string = colors.dullAccentBackground;
+    export let color: string = colors.dullAccent;
     // check if to starts with http
     let external: boolean = to.startsWith("http");
     let email: boolean = to.startsWith("mailto");

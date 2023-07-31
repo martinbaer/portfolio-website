@@ -11,26 +11,28 @@
     <Section>
         <h1>Projects</h1>
         <ProjectCard
-            title="Real-Time Barnes-Hut Gravity Simulation"
+            title="UQ Cryptoclub DAO"
             tags={[
                 "Complete",
-                "Solo",
-                "Personal project",
-                "Rust",
+                "Team",
+                "University assignment",
+                "Solidity",
                 "JavaScript",
-                "WebAssembly"
+                "Ethereum",
+                "Optimism",
+                "MetaMask"
             ]}
-            imageLink="/images/spaceclicker.jpg"
-            liveDemoLink="https://spaceclicker.martinbaer.au/"
-            githubLink="https://github.com/martinbaer/real-time-gravity-sim"
+            imageLink="/images/uqcryptoclubdao.jpg"
+            githubLink="https://github.com/martinbaer/uq-cryptoclub-dao"
+            liveDemoLink="https://uqcryptoclubdao.martinbaer.au/"
         >
-            This solo personal project is an interactive, real-time variant of a
-            previously batch-processed model. It was written in Rust and
-            JavaScript to try out compiling to WebAssembly with wasm-pack. It
-            allows the computationally-intensive Barnes-Hut algorithm to run
-            natively in a web browser with up to 10 000 bodies before
-            performance decline.
-            <p>Note: I'm still fixing the usability of the live demo.</p>
+            This team project was completed in a pair in the course “Advanced
+            Topics in Cyber Security”. It’s a decentralised autonomous
+            organisation to facilitate collective decision-making on
+            hypothetical club matters such as electing leaders, planning events,
+            and managing club money. Two main components: a browser front-end
+            that uses JavaScript ‘ethers’ library and MetaMask; and a Solidity
+            smart contract back-end deployed on Optimism testnet.
         </ProjectCard>
         <ProjectCard
             title="Synaesthesia Experience — Build Project"
@@ -54,29 +56,28 @@
             program which layers and plays sounds using ‘pygame’ library. Video
             available.
         </ProjectCard>
+
         <ProjectCard
-            title="UQ Cryptoclub DAO"
+            title="Real-Time Barnes-Hut Gravity Simulation"
             tags={[
                 "Complete",
-                "Team",
-                "University assignment",
-                "Solidity",
+                "Solo",
+                "Personal project",
+                "Rust",
                 "JavaScript",
-                "Ethereum",
-                "Optimism",
-                "MetaMask"
+                "WebAssembly"
             ]}
-            imageLink="/images/uqcryptoclubdao.jpg"
-            githubLink="https://github.com/martinbaer/uq-cryptoclub-dao"
-            liveDemoLink="https://uqcryptoclubdao.martinbaer.au/"
+            imageLink="/images/spaceclicker.jpg"
+            liveDemoLink="https://spaceclicker.martinbaer.au/"
+            githubLink="https://github.com/martinbaer/real-time-gravity-sim"
         >
-            This team project was completed in a pair in the course “Advanced
-            Topics in Cyber Security”. It’s a decentralised autonomous
-            organisation to facilitate collective decision-making on
-            hypothetical club matters such as electing leaders, planning events,
-            and managing club money. Two main components: a browser front-end
-            that uses JavaScript ‘ethers’ library and MetaMask; and a smart
-            contract back-end deployed on Optimism testnet.
+            This solo personal project is an interactive, real-time variant of a
+            previously batch-processed model. It was written in Rust and
+            JavaScript to try out compiling to WebAssembly with wasm-pack. It
+            allows the computationally-intensive Barnes-Hut algorithm to run
+            natively in a web browser with up to 10 000 bodies before
+            performance decline.
+            <p>Note: I'm still fixing the usability of the live demo.</p>
         </ProjectCard>
         <ProjectCard
             title="Portfolio Website (this)"

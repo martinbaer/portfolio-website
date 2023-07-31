@@ -73,7 +73,7 @@
     button {
         // remove all style
         all: unset;
-        color: colors.$accent-background;
+        color: colors.$dull-accent;
         text-decoration: underline;
         // mouse
         cursor: pointer;

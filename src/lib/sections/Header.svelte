@@ -17,10 +17,10 @@
     <Section color={colors.accentBackground}>
         <div class="header-container">
             <a id="my-name" on:click={handleLinkClick} href="/"
-                ><h1 style="color:{colors.background}">Martin Baer</h1></a
+                ><h1>Martin Baer</h1></a
             >
             <!-- navigation -->
-            <nav style="color:{colors.background}">
+            <nav>
                 <ul>
                     <li>
                         <a
@@ -49,13 +49,15 @@
             </nav>
         </div>
     </Section>
-    <Section color={colors.dullAccentBackground}>
+    <!-- <Section color={colors.dullAccentBackground}>
         <div style="height:25px" />
-    </Section>
+    </Section> -->
 </header>
 
 <style lang="scss">
-    $shadow: drop-shadow(0px 0px 10px rgba(50, 50, 50, 0.9));
+    $shadow: drop-shadow(0px 0px 6px rgba(50, 50, 50, 0.9));
+
+    @use "../../constants/colors.scss" as colors;
 
     #my-name {
         font-family: "Reenie Beanie";
@@ -87,31 +89,23 @@
             }
         }
     }
-    // centre the h1
     h1 {
         font-size: 40px;
-        // reduce top and bottom margin to 20px and 10px
         margin: 25px 0;
         margin-right: 15px;
+        color: black;
     }
-    // centre the nav
-    // remove the list style
     ul {
         list-style: none;
-        // row
         display: flex;
         flex-flow: row wrap;
-        // centre
         align-items: center;
         justify-content: center;
-        // gap
         gap: 1rem;
-        // remove right margin
         padding: 0;
     }
-    // remove the link style
     a {
         text-decoration: none;
-        color: inherit;
+        color: black;
     }
 </style>

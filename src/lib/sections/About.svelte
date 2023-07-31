@@ -27,9 +27,9 @@
                 <p>
                     I created this portfolio website to connect with
                     forward-thinking organisations where I can leverage my
-                    skills in Software Engineering in a challenging, problem
-                    solving environment. I'm looking for an opportunity to work
-                    with a friendly and constructive team.
+                    skills in Software Engineering in a challenging, creative,
+                    problem-solving environment. I'm looking for an opportunity
+                    to be part of a constructive team.
                 </p>
                 <Link to="/contact">Contact me</Link>
                 <Link to="/projects">Check out my projects</Link>
@@ -443,7 +443,7 @@
 
     ul li::before {
         content: "\2022";
-        color: colors.$accent-background;
+        color: colors.$accent;
         font-weight: bold;
         font-size: larger;
         display: inline-block;
