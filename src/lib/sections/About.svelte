@@ -92,39 +92,37 @@
         <h3>Languages</h3>
         <div class="skill-list">
             <p>
-                <strong>More proficient:</strong> Java, Python, Javascript, Typescript,
+                <strong>Proficient:</strong> Java, Python, Javascript, Typescript,
                 C, C++, Rust, HTML, CSS, SCSS/Sass, LaTeX.
             </p>
             <p>
-                <strong>Some experience:</strong> Bash, SQL, PHP, Solidity, CUDA,
-                MATLAB, R.
+                <strong>Familiar:</strong> Bash, SQL, PHP, Solidity, CUDA, MATLAB,
+                R.
             </p>
         </div>
 
         <h3>Frameworks and libraries</h3>
         <div class="skill-list">
             <p>
-                <strong>More proficient:</strong> React, Svelte, Node.js, Numpy,
-                MatPlotLib.
+                <strong>Proficient:</strong> React, Svelte, Node.js, Numpy, MatPlotLib.
             </p>
             <p>
-                <strong>Some experience:</strong> Intel Intrinsics AVX, MPI, OpenMP,
-                CUDA, Numpy, Pandas, TensorFlow, Scikit-learn, Express.js, Actix,
-                CodeIgniter, Sveltekit.
+                <strong>Familiar:</strong> Intel Intrinsics AVX, MPI, OpenMP, CUDA,
+                Numpy, Pandas, TensorFlow, Scikit-learn, Express.js, Actix, CodeIgniter,
+                Sveltekit.
             </p>
         </div>
 
         <h3>Tools</h3>
         <div class="skill-list">
             <p>
-                <strong>More proficient:</strong> Linux, Git, Figma, Make, Cloudflare,
+                <strong>Proficient:</strong> Linux, Git, Figma, Make, Cloudflare,
                 MySQL, MongoDB, Wireshark.
             </p>
             <p>
-                <strong>Some experience:</strong> MacOS, Windows, SVN, Gradle, Cargo,
-                Canva, Adobe Photoshop, Apache, Docker, Google Cloud Run, Wasm-Pack,
-                Webpack, Vite, Rollup, Remix - Ethereum IDE, MetaMask, Optimism,
-                RStudio.
+                <strong>Familiar:</strong> MacOS, Windows, SVN, Gradle, Cargo, Canva,
+                Adobe Photoshop, Apache, Docker, Google Cloud Run, Wasm-Pack, Webpack,
+                Vite, Rollup, Remix - Ethereum IDE, MetaMask, Optimism, RStudio.
             </p>
         </div>
 
