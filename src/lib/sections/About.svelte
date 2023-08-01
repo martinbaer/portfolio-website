@@ -28,7 +28,7 @@
                     I created this portfolio website to connect with
                     forward-thinking organisations where I can leverage my
                     skills in Software Engineering in a challenging, creative,
-                    problem-solving team environment.
+                    problem-solving, team environment.
                 </p>
                 <Link to="/contact">Contact me</Link>
                 <Link to="/projects">Check out my projects</Link>
@@ -90,334 +90,44 @@
             </p>
         </div>
         <h3>Languages</h3>
-        <div class="skill-type">
-            <div class="skill-group">
-                <h4>General purpose</h4>
-                <ul>
-                    <li>Java</li>
-                    <li>Python</li>
-                    <li>Javascript</li>
-                    <li>Typescript</li>
-                    <li>Bash</li>
-                </ul>
-            </div>
-            <div class="skill-group">
-                <h4>Lower level</h4>
-                <ul>
-                    <li>C</li>
-                    <li>C++</li>
-                    <li>Rust</li>
-                </ul>
-            </div>
-
-            <div class="skill-group">
-                <h4>Markup and styling</h4>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>SCSS/Sass</li>
-                    <li>LaTeX</li>
-                </ul>
-            </div>
-
-            <div class="skill-group">
-                <h4>Other</h4>
-                <ul>
-                    <li>SQL</li>
-                    <li>PHP</li>
-                    <li>Solidity</li>
-                    <li>CUDA</li>
-                    <li>MATLAB</li>
-                    <li>R</li>
-                </ul>
-            </div>
+        <div class="skill-list">
+            <p>
+                <strong>More proficient:</strong> Java, Python, Javascript, Typescript,
+                C, C++, Rust, HTML, CSS, SCSS/Sass, LaTeX.
+            </p>
+            <p>
+                <strong>Some experience:</strong> Bash, SQL, PHP, Solidity, CUDA,
+                MATLAB, R.
+            </p>
         </div>
-        <h3>Frameworks and notable libraries</h3>
-        <div class="skill-type">
-            <div class="skill-group">
-                <h4>Parralelisation</h4>
-                <ul>
-                    <li>Intel Intrinsics AVX</li>
-                    <li>MPI</li>
-                    <li>OpenMP</li>
-                    <li>CUDA</li>
-                </ul>
-            </div>
-            <div class="skill-group">
-                <h4>Data science</h4>
-                <ul>
-                    <li>Numpy</li>
-                    <li>Pandas</li>
-                    <li>TensorFlow</li>
-                    <li>Scikit-learn</li>
-                    <li>matplotlib</li>
-                </ul>
-            </div>
-            <div class="skill-group">
-                <h4>Web front-end</h4>
-                <ul>
-                    <li>React</li>
-                    <li>Svelte</li>
-                </ul>
-            </div>
-            <div class="skill-group">
-                <h4>Web back-end</h4>
-                <ul>
-                    <li>Node.js</li>
-                    <li>Express.js</li>
-                    <li>Actix</li>
-                </ul>
-            </div>
-            <div class="skill-group">
-                <h4>Web full-stack</h4>
-                <ul>
-                    <li>CodeIgniter</li>
-                    <li>Sveltekit</li>
-                </ul>
-            </div>
+
+        <h3>Frameworks and libraries</h3>
+        <div class="skill-list">
+            <p>
+                <strong>More proficient:</strong> React, Svelte, Node.js, Numpy,
+                MatPlotLib.
+            </p>
+            <p>
+                <strong>Some experience:</strong> Intel Intrinsics AVX, MPI, OpenMP,
+                CUDA, Numpy, Pandas, TensorFlow, Scikit-learn, Express.js, Actix,
+                CodeIgniter, Sveltekit.
+            </p>
         </div>
+
         <h3>Tools</h3>
-        <div class="skill-type">
-            <div class="skill-group">
-                <h4>Version control</h4>
-                <ul>
-                    <li>Git</li>
-                    <li>SVN</li>
-                </ul>
-            </div>
-            <div class="skill-group">
-                <h4>Design</h4>
-                <ul>
-                    <li>Figma</li>
-                    <li>Canva</li>
-                    <li>Adobe Photoshop</li>
-                </ul>
-            </div>
-
-            <div class="skill-group">
-                <h4>Deployment</h4>
-                <ul>
-                    <li>Apache</li>
-                    <li>Docker</li>
-                    <li>Google Cloud Run</li>
-                    <li>Cloudflare</li>
-                </ul>
-            </div>
-
-            <div class="skill-group">
-                <h4>Compiling</h4>
-                <ul>
-                    <li>Make</li>
-                    <li>Gradle</li>
-                    <li>Cargo</li>
-                </ul>
-            </div>
-
-            <div class="skill-group">
-                <h4>Packaging</h4>
-                <ul>
-                    <li>Wasm-Pack</li>
-                    <li>Webpack</li>
-                    <li>Vite</li>
-                    <li>Rollup</li>
-                </ul>
-            </div>
-
-            <div class="skill-group">
-                <h4>Databases</h4>
-                <ul>
-                    <li>MySQL</li>
-                    <li>MongoDB</li>
-                    <li>Firebase</li>
-                </ul>
-            </div>
-
-            <div class="skill-group">
-                <h4>Operating systems</h4>
-                <ul>
-                    <li>Linux</li>
-                    <li>MacOS</li>
-                    <li>Windows</li>
-                </ul>
-            </div>
-
-            <div class="skill-group">
-                <h4>Blockchain</h4>
-                <ul>
-                    <li>Remix - Ethereum IDE</li>
-                    <li>MetaMask</li>
-                    <li>Optimism</li>
-                </ul>
-            </div>
-
-            <div class="skill-group">
-                <h4>Other</h4>
-                <ul>
-                    <li>RStudio</li>
-                    <li>Wireshark</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="right shortened" style="margin-top:60px">
+        <div class="skill-list">
             <p>
-                Below I've outlined some of the coursework that I have done. I
-                have a solid introduction into a wide range of topics, and I am
-                always looking to learn more.
+                <strong>More proficient:</strong> Linux, Git, Figma, Make, Cloudflare,
+                MySQL, MongoDB, Wireshark.
             </p>
             <p>
-                I've also elaborated on some of the specific topics covered in
-                each area.
+                <strong>Some experience:</strong> MacOS, Windows, SVN, Gradle, Cargo,
+                Canva, Adobe Photoshop, Apache, Docker, Google Cloud Run, Wasm-Pack,
+                Webpack, Vite, Rollup, Remix - Ethereum IDE, MetaMask, Optimism,
+                RStudio.
             </p>
         </div>
 
-        <h3>Coursework</h3>
-        <div class="skill-type-large">
-            <div class="skill-group">
-                <h4>Engineering practices</h4>
-                <ul>
-                    <li>Risk analysis</li>
-                    <li>Financial analysis</li>
-                    <li>Ethical conduct</li>
-                    <li>Business modelling</li>
-                    <li>Pitching and presentation skills</li>
-                    <li>Requirements engineering</li>
-                    <li>Project management</li>
-                    <li>Report writing</li>
-                    <li>UML and other diagrams</li>
-                </ul>
-            </div>
-            <div class="skill-group">
-                <h4>Software processes</h4>
-                <ul>
-                    <li>Development processes</li>
-                    <li>Use case modelling</li>
-                    <li>Testing</li>
-                    <li>Code validation</li>
-                    <li>Risk management</li>
-                    <li>Estimation techniques</li>
-                    <li>CI/CD</li>
-                    <li>TDD, BDD</li>
-                    <li>Agile, Waterfall, Scrum, Kanban, etc.</li>
-                </ul>
-            </div>
-            <div class="skill-group">
-                <h4>Data science and machine learning</h4>
-                <ul>
-                    <li>Data analysis</li>
-                    <li>Model evaluation techniques</li>
-                    <li>Model performance improvement techniques</li>
-                    <li>Clustering</li>
-                    <li>Dimensionality reduction</li>
-                    <li>Variety of generative models</li>
-                    <li>Variety of supervised learning models:</li>
-                    <li>Nearest neighbour methods, decision trees</li>
-                    <li>
-                        Linear, logistic, polynomial, and bayesian linear
-                        regression
-                    </li>
-                    <li>
-                        Multi-layer perceptron, convolutional neural networks
-                    </li>
-                    <li>Support vector machines</li>
-                </ul>
-            </div>
-            <div class="skill-group">
-                <h4>Cyber Security</h4>
-                <ul>
-                    <li>Symmetric and asymetric cryptography</li>
-                    <li>Modern cipher suites</li>
-                    <li>Network security</li>
-                    <li>Security protocols: TLS, IPSec, etc.</li>
-                    <li>Security frameworks</li>
-                    <li>Vulnerability and threat modelling</li>
-                    <li>Security risk management</li>
-                    <li>Practice simulating attacks</li>
-                    <li>Explaining attacks with respect to CIA triad</li>
-                </ul>
-            </div>
-            <div class="skill-group">
-                <h4>Web information systems</h4>
-                <ul>
-                    <li>Architectures</li>
-                    <li>AJAX</li>
-                    <li>Asynchronous programming</li>
-                    <li>Relational (SQL) databases</li>
-                    <li>Non-Relational (NoSQL) databases</li>
-                    <li>Web security</li>
-                    <li>Web services</li>
-                    <li>Web search</li>
-                    <li>Web frameworks</li>
-                    <li>SEO</li>
-                </ul>
-            </div>
-            <div class="skill-group">
-                <h4>Computer networks</h4>
-                <ul>
-                    <li>Network architectures</li>
-                    <li>Wireshark analysis</li>
-                    <li>Simplified implementation of protocols:</li>
-                    <li>HTTP, DNS, and SMTP,</li>
-                    <li>UDP, TCP, including congestion control,</li>
-                    <li>IPv4, IPv6, routing algorithms,</li>
-                    <li>Ethernet, addressing, ARP access control</li>
-                </ul>
-            </div>
-            <div class="skill-group">
-                <h4>Data structures and algorithms</h4>
-                <ul>
-                    <li>Data structures & types</li>
-                    <li>
-                        Mapping of abstract information structures into
-                        representations on primary & secondary storage.
-                    </li>
-                    <li>Analysis of time & space complexity of algorithms</li>
-                    <li>Sequences, lists, stacks, queues</li>
-                    <li>Sets, multisets, tables</li>
-                    <li>Hash tables, trees, priority queue</li>
-                    <li>Sorting, string and graph search algorithms</li>
-                </ul>
-            </div>
-            <div class="skill-group">
-                <h4>Design</h4>
-                <ul>
-                    <li>Human-computer interaction</li>
-                    <li>UX design</li>
-                    <li>UI design and paradigms</li>
-                    <li>Web and mobile design principles</li>
-                    <li>Use-centred design</li>
-                    <li>Interaction analysis</li>
-                    <li>Evaluation techniques</li>
-                </ul>
-            </div>
-            <div class="skill-group">
-                <h4>Blockchain and decentralised systems</h4>
-                <ul>
-                    <li>Bitcoin</li>
-                    <li>Ethereum</li>
-                    <li>Smart contracts</li>
-                    <li>Decentralised autonomous systems</li>
-                    <li>
-                        I did a seminar on post-quantum blockchain (proposed)
-                        solutions
-                    </li>
-                </ul>
-            </div>
-            <div class="skill-group">
-                <h4>High-performance computing</h4>
-                <ul>
-                    <li>Parallel computing theory</li>
-                    <li>HPC use in solving scientific problems</li>
-                    <li>Performance evaluation techniques</li>
-                    <li>Benchmarking</li>
-                    <li>Processor and memory profiling</li>
-                    <li>
-                        Parallelisation techniques: SIMD, multithreading and
-                        multiprocessing, grid and cluster computing,
-                    </li>
-                </ul>
-            </div>
-        </div>
         <div style="height: 40px" />
         <div class="right">
             <Link to="/projects">Check out my projects</Link>
@@ -434,6 +144,13 @@
     $image-width: 250px;
 
     $mobile-view-width: 730px;
+
+    .skill-list {
+        strong {
+            // underline
+            text-decoration: underline;
+        }
+    }
 
     ul li {
         // remove bullet
