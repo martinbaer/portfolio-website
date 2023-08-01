@@ -18,18 +18,17 @@
             <div class="right content">
                 <p>
                     I’m a motivated 4th year student at The University of
-                    Queensland. I study a Bachelor of Engineering (Hons.) and
-                    Master of Engineering in Software and have a broad range of
-                    interests especially in cyber security and data science. I
-                    have a passion for learning, I love making things, and I'm
-                    always receptive to feedback.
+                    Queensland. I'm currently completing a Bachelor of
+                    Engineering (Hons.) and Master of Engineering in Software
+                    and have a broad range of interests especially in cyber
+                    security and data science. I have a passion for learning and
+                    I love making things.
                 </p>
                 <p>
                     I created this portfolio website to connect with
                     forward-thinking organisations where I can leverage my
                     skills in Software Engineering in a challenging, creative,
-                    problem-solving environment. I'm looking for an opportunity
-                    to be part of a constructive team.
+                    problem-solving team environment.
                 </p>
                 <Link to="/contact">Contact me</Link>
                 <Link to="/projects">Check out my projects</Link>

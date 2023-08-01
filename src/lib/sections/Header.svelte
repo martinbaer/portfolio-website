@@ -55,7 +55,7 @@
 </header>
 
 <style lang="scss">
-    $shadow: drop-shadow(0px 0px 6px rgba(50, 50, 50, 0.9));
+    $shadow: drop-shadow(0px 0px 10px rgba(50, 50, 50, 0.9));
 
     @use "../../constants/colors.scss" as colors;
 
@@ -93,7 +93,7 @@
         font-size: 40px;
         margin: 25px 0;
         margin-right: 15px;
-        color: colors.$accent;
+        color: colors.$background;
     }
     ul {
         list-style: none;
@@ -106,6 +106,6 @@
     }
     a {
         text-decoration: none;
-        color: black;
+        color: colors.$background;
     }
 </style>

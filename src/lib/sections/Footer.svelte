@@ -3,8 +3,8 @@
     import Section from "../containers/Section.svelte";
     import Link from "../containers/Link.svelte";
 
-    import githubSvg from "../../assets/github.svg";
-    import linkedinSvg from "../../assets/linkedin-in.svg";
+    import githubSvg from "../../assets/github-white.svg";
+    import linkedinSvg from "../../assets/linkedin-in-white.svg";
 
     import url from "../../stores/url";
 
@@ -51,7 +51,7 @@
                 <span>contact@martinbaer.au</span>
                 <Link
                     to="https://github.com/martinbaer/portfolio-website"
-                    color="black"
+                    color={colors.background}
                 >
                     <span class="white">View source code for this website</span>
                 </Link>
@@ -70,7 +70,7 @@
 
     a {
         text-decoration: none;
-        color: black;
+        color: colors.$background;
         font-family: "Custom Gill Sans";
     }
     .footer-row {
@@ -102,7 +102,7 @@
         justify-content: space-between;
         // bottom
         align-items: flex-end;
-        color: black;
+        color: colors.$background;
         padding: 40px 0 30px 0;
     }
 </style>
