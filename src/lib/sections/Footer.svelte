@@ -35,7 +35,7 @@
                 <a href="/" on:click={handleLinkClick}> About</a>
                 <a href="/projects" on:click={handleLinkClick}>Projects</a>
                 <a href="/contact" on:click={handleLinkClick}>Contact</a>
-                <span id="copyright">© 2023 Martin Baer</span>
+                <span id="copyright">© 2024 Martin Baer</span>
             </span>
 
             <span class="right footer-row">
@@ -48,7 +48,7 @@
                 >
                     <img src={linkedinSvg} alt="LinkedIn" />
                 </Link>
-                <span>contact@martinbaer.au</span>
+                <span>martin@mbaer.au</span>
                 <Link
                     to="https://github.com/martinbaer/portfolio-website"
                     color={colors.background}
@@ -75,7 +75,6 @@
     }
     .footer-row {
         display: grid;
-        // one column, equal spaced rows
         grid-template-columns: 1fr;
         grid-template-rows: 20px 20px 20px 40px;
         grid-row-gap: 10px;
@@ -93,14 +92,11 @@
         height: 15px;
         margin: 0;
         padding: 0;
-        // margin-right: 6px;
-        // vertical-align: middle;
     }
     footer {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        // bottom
         align-items: flex-end;
         color: colors.$background;
         padding: 40px 0 30px 0;

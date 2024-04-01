@@ -56,6 +56,26 @@
             <p>Note: I'm still fixing the usability of the live demo.</p>
         </ProjectCard>
         <ProjectCard
+            title="Batch-Processed Barnes-Hut Gravity Simulation"
+            tags={[
+                "Complete",
+                "Solo",
+                "University assignment",
+                "C++",
+                "MPI",
+                "OpenMP",
+                "CUDA"
+            ]}
+            imageLink="/images/batch_processed_gravity_sim.jpg"
+            githubLink="https://github.com/martinbaer/batch-processed-gravity-sim"
+        >
+            This solo project was written in C++ with the MPI library for the
+            course “High Performance Computing”. I optimise and parralelise my
+            chosen algorithm, the Barnes-Hut simulation, an O(n log n) solution
+            for an n-body gravity simulation. All versions were benchmarked and
+            profiled.
+        </ProjectCard>
+        <ProjectCard
             title="Machine Learning Based Network Intrusion Detection System"
             tags={[
                 "Complete",
@@ -126,26 +146,7 @@
             the Svelte framework (with TypeScript and SCSS) built with Vite. I
             deployed it on Cloudflare Pages, with CI/CD linked with my GitHub.
         </ProjectCard>
-        <ProjectCard
-            title="Batch-Processed Barnes-Hut Gravity Simulation"
-            tags={[
-                "Complete",
-                "Solo",
-                "University assignment",
-                "C++",
-                "MPI",
-                "OpenMP",
-                "CUDA"
-            ]}
-            imageLink="/images/batch_processed_gravity_sim.jpg"
-            githubLink="https://github.com/martinbaer/batch-processed-gravity-sim"
-        >
-            This solo project was written in C++ with the MPI library for the
-            course “High Performance Computing”. I optimise and parralelise my
-            chosen algorithm, the Barnes-Hut simulation, an O(n log n) solution
-            for an n-body gravity simulation. All versions were benchmarked and
-            profiled.
-        </ProjectCard>
+
         <ProjectCard
             title="React and Svelte UI Suite"
             tags={[

@@ -11,11 +11,8 @@
     <Section>
         <h1>About</h1>
         <!-- <h2 class="right">Who am I?</h2> -->
-        <div
-            class="subsection flex-reverse"
-            style="flex-direction: row-reverse;"
-        >
-            <div class="right content">
+        <div class="subsection">
+            <div class="content">
                 <p>
                     I'm a final year Bachelor of Engineering (Hons.) and Master
                     of Engineering (Software) student with a broad range of
