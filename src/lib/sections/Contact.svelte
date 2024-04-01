@@ -25,14 +25,14 @@
         <div class="contact-info center">
             <Link>
                 <img src={envelopeSvg} alt="Email" />
-                contact@martinbaer.au</Link
+                martin@mbaer.au</Link
             >
             <button on:click={copyEmail}>Copy email address to clipboard</button
             >
             {#if emailCopied}
                 <div class="success-message">Copied!</div>
             {/if}
-            <Link to="mailto:contact@martinbaer.au">Write me an email</Link>
+            <Link to="mailto:martin@mbaer.au">Write me an email</Link>
             <div style="height: 10px" />
             <Link>
                 <img src={phoneSvg} alt="Phone" />
@@ -44,7 +44,7 @@
                 martinbaer - GitHub
             </Link>
             <div style="height: 10px" />
-            <Link to="https://www.linkedin.com/in/martin-baer-a8b133282/">
+            <Link to="https://www.linkedin.com/in/martin-baer-software/">
                 <img src={linkedinSvg} alt="LinkedIn" />
                 Martin Baer - LinkedIn
             </Link>

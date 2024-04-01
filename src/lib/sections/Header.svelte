@@ -24,8 +24,8 @@
                 <ul>
                     <li>
                         <a
-                            class:underline={$url.pathname == "/"}
-                            href="/"
+                            class:underline={$url.pathname == "/about"}
+                            href="/about"
                             on:click={handleLinkClick}
                         >
                             About</a
@@ -60,9 +60,9 @@
     @use "../../constants/colors.scss" as colors;
 
     #my-name {
-        font-family: "Reenie Beanie";
+        // font-family: "Reenie Beanie";
         h1 {
-            font-size: 60px;
+            // font-size: 30px;
         }
     }
     .underline {

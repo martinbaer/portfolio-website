@@ -9,26 +9,19 @@
 
 <article>
     <Section>
-        <h1>About me</h1>
-        <h2 class="right">Who am I?</h2>
+        <h1>About</h1>
+        <!-- <h2 class="right">Who am I?</h2> -->
         <div
             class="subsection flex-reverse"
             style="flex-direction: row-reverse;"
         >
             <div class="right content">
                 <p>
-                    I’m a motivated 4th year student at The University of
-                    Queensland. I'm currently completing a Bachelor of
-                    Engineering (Hons.) and Master of Engineering in Software
-                    and have a broad range of interests especially in cyber
-                    security and data science. I have a passion for learning and
-                    I love making things.
-                </p>
-                <p>
-                    I created this portfolio website to connect with
-                    forward-thinking organisations where I can leverage my
-                    skills in Software Engineering in a challenging, creative,
-                    problem-solving, team environment.
+                    I'm a final year Bachelor of Engineering (Hons.) and Master
+                    of Engineering (Software) student with a broad range of
+                    interests especially in machine learning, software
+                    architecture, and cross-disciplinary projects. I love
+                    learning and challenging myself.
                 </p>
                 <Link to="/contact">Contact me</Link>
                 <Link to="/projects">Check out my projects</Link>
@@ -41,98 +34,12 @@
                 <div style="height: 20px;" />
             </div>
             <div class="circle-container">
-                <img src="/images/placeholder.jpg" alt="Martin Baer" />
+                <img src="/images/martin_baer_hiking.jpg" alt="Martin Baer" />
                 <!-- <img src="/images/martin_baer_headshot.jpg" alt="Martin Baer" /> -->
             </div>
         </div>
-        <h2>What am I interested in?</h2>
-        <div class="subsection">
-            <div class="content">
-                <p>
-                    I have a solid introduction to several fields within
-                    software engineering. My areas of interest include:
-                </p>
-                <ul>
-                    <li>Software engineering processes and management</li>
-                    <li>Cyber security and cryptographic systems</li>
-                    <li>Software architecture</li>
-                    <li>Machine learning</li>
-                    <li>Web information systems</li>
-                    <li>Blockchain and decentralised systems</li>
-                    <li>Design and human-computer interaction</li>
-                    <li>Computer networks</li>
-                    <li>High-performance computing</li>
-                </ul>
-                <p>
-                    I try to bring the same fun-loving nature into both my
-                    professional pursuits and personal hobbies. Despite not
-                    being the most seasoned hiker, I'm always up for a
-                    challenge. Last year I did the 4-day Sunshine Coast
-                    Hinterland Great Walk and this year I plan on doing the
-                    4-day Conondale Range Great Walk.
-                </p>
-            </div>
-            <div class="circle-container">
-                <img
-                    src="/images/martin_baer_hiking.jpg"
-                    alt="Martin Baer hiking"
-                />
-            </div>
-        </div>
-        <div class="right shortened">
-            <h2>What skills do I have so far?</h2>
-            <p>
-                I try to have a language-agnostic approach to problem-solving –
-                I'm comfortable learning new technologies, languages, and
-                frameworks. Listed below are the technologies with which I have
-                gained proficiency while working on my personal projects and
-                university assignments.
-            </p>
-        </div>
-        <h3>Languages</h3>
-        <div class="skill-list">
-            <p>
-                <strong>Proficient:</strong> Java, Python, Javascript, Typescript,
-                C, C++, Rust, HTML, CSS, SCSS/Sass, LaTeX.
-            </p>
-            <p>
-                <strong>Familiar:</strong> Bash, SQL, PHP, Solidity, CUDA, MATLAB,
-                R.
-            </p>
-        </div>
-
-        <h3>Frameworks and libraries</h3>
-        <div class="skill-list">
-            <p>
-                <strong>Proficient:</strong> React, Svelte, Node.js, Numpy, MatPlotLib.
-            </p>
-            <p>
-                <strong>Familiar:</strong> Intel Intrinsics AVX, MPI, OpenMP, CUDA,
-                Numpy, Pandas, TensorFlow, Scikit-learn, Express.js, Actix, CodeIgniter,
-                Sveltekit.
-            </p>
-        </div>
-
-        <h3>Tools</h3>
-        <div class="skill-list">
-            <p>
-                <strong>Proficient:</strong> Linux, Git, Figma, Make, Cloudflare,
-                MySQL, MongoDB, Wireshark.
-            </p>
-            <p>
-                <strong>Familiar:</strong> MacOS, Windows, SVN, Gradle, Cargo, Canva,
-                Adobe Photoshop, Apache, Docker, Google Cloud Run, Wasm-Pack, Webpack,
-                Vite, Rollup, Remix - Ethereum IDE, MetaMask, Optimism, RStudio.
-            </p>
-        </div>
 
         <div style="height: 40px" />
-        <div class="right">
-            <Link to="/projects">Check out my projects</Link>
-        </div>
-        <div class="right">
-            <Link to="/contact">Contact me</Link>
-        </div>
     </Section>
 </article>
 

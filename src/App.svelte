@@ -7,11 +7,15 @@
     import NotFound from "./lib/sections/NotFound.svelte";
 
     import url from "./stores/url";
+
+    if ($url.pathname == "/") {
+        history.pushState(null, "", "/projects");
+    }
 </script>
 
 <main>
     <Header />
-    {#if $url.pathname == "/"}
+    {#if $url.pathname == "/about"}
         <About />
     {:else if $url.pathname == "/projects"}
         <Projects />
