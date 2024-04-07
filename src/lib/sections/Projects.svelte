@@ -18,7 +18,7 @@
                 "Team",
                 "University assignment",
                 "Python",
-                "Arduino"
+                "Arduino",
             ]}
             imageLink="/images/synaesthesia.jpg"
             githubLink="https://github.com/DECO3801-The-Better-Half/Touch-Me-Not"
@@ -41,10 +41,10 @@
                 "Personal project",
                 "Rust",
                 "JavaScript",
-                "WebAssembly"
+                "WebAssembly",
             ]}
             imageLink="/images/spaceclicker.jpg"
-            liveDemoLink="https://spaceclicker.martinbaer.au/"
+            liveDemoLink="https://spaceclicker.mbaer.au/"
             githubLink="https://github.com/martinbaer/real-time-gravity-sim"
         >
             This solo personal project is an interactive, real-time variant of a
@@ -64,7 +64,7 @@
                 "C++",
                 "MPI",
                 "OpenMP",
-                "CUDA"
+                "CUDA",
             ]}
             imageLink="/images/batch_processed_gravity_sim.jpg"
             githubLink="https://github.com/martinbaer/batch-processed-gravity-sim"
@@ -85,7 +85,7 @@
                 "SciKit-Learn",
                 "TensorFlow",
                 "Pandas",
-                "NumPy"
+                "NumPy",
             ]}
             imageLink="/images/network_intrusion.jpg"
         >
@@ -115,11 +115,11 @@
                 "JavaScript",
                 "Ethereum",
                 "Optimism",
-                "MetaMask"
+                "MetaMask",
             ]}
             imageLink="/images/uqcryptoclubdao.jpg"
             githubLink="https://github.com/martinbaer/uq-cryptoclub-dao"
-            liveDemoLink="https://uqcryptoclubdao.martinbaer.au/"
+            liveDemoLink="https://uqcryptoclubdao.mbaer.au/"
         >
             This team project was completed in a pair in the course “Advanced
             Topics in Cyber Security”. It’s a decentralised autonomous
@@ -137,7 +137,7 @@
                 "Personal project",
                 "Svelte",
                 "TypeScript",
-                "SCSS"
+                "SCSS",
             ]}
             imageLink="/images/portfolio_website.jpg"
             githubLink="https://github.com/martinbaer/portfolio-website"
@@ -156,7 +156,7 @@
                 "React",
                 "Svelte",
                 "TypeScript",
-                "SCSS"
+                "SCSS",
             ]}
             githubLink="https://github.com/martinbaer/superellipse-ui-set"
             liveDemoLink="/superellipse-ui-set"
@@ -175,7 +175,7 @@
                 "Personal project",
                 "Rust",
                 "JavaScript",
-                "WebAssembly"
+                "WebAssembly",
             ]}
             githubLink="https://github.com/martinbaer/wasm-web-game"
         >
@@ -191,7 +191,7 @@
                 "Personal project",
                 "React",
                 "TypeScript",
-                "SCSS"
+                "SCSS",
             ]}
             githubLink="https://github.com/martinbaer/tutorlink_v1"
         >
