@@ -12,7 +12,7 @@
         <h1>Projects</h1>
 
         <ProjectCard
-            title="Synaesthesia Experience — Build Project"
+            title="Synaesthesia Experience"
             tags={[
                 "Complete",
                 "Team",
@@ -24,14 +24,14 @@
             githubLink="https://github.com/DECO3801-The-Better-Half/Touch-Me-Not"
             moreInfoLink="/synaesthesia"
         >
-            This team project was especially fun. It was completed as the
-            capstone project in “Design Computing Studio 3 – Build”. It's an
-            enclosed walk-in synaesthesia experience in which the sense of touch
-            is translated to sound. Capacitive sensors attached to plants,
-            flowers, water, metal and other conductive materials, trigger sounds
-            to play when touched. Sensor input processed by an Arduino, then
-            send to Python program which layers and plays sounds using ‘pygame’
-            library. Contact me and I'll send a video of this project in action.
+            This unique project was completed as the capstone project in “Design
+            Computing Studio 3 – Build”. It's an enclosed walk-in synaesthesia
+            experience in which the sense of touch is translated to sound.
+            Capacitive sensors attached to plants, flowers, water, metal and
+            other conductive materials, trigger sounds to play when touched.
+            Sensor input processed by an Arduino, then send to Python program
+            which layers and plays sounds using ‘pygame’ library. Contact me and
+            I'll send a video of this project in action.
         </ProjectCard>
         <ProjectCard
             title="Real-Time Barnes-Hut Gravity Simulation"
