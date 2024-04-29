@@ -147,7 +147,7 @@
             deployed it on Cloudflare Pages, with CI/CD linked with my GitHub.
         </ProjectCard>
 
-        <ProjectCard
+        <!-- <ProjectCard
             title="React and Svelte UI Suite"
             tags={[
                 "Work-in-progress",
@@ -198,7 +198,7 @@
             This is a work-in-progress solo project web app to solve the
             real-life problems with the existing tutor-finding web solutions
             faced by both myself, as a tutor, and many parents I have talked to.
-        </ProjectCard>
+        </ProjectCard> -->
     </Section>
 </article>
 
